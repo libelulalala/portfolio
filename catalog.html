@@ -8,7 +8,7 @@
     <header class="main-header">
         <div class="container clearfix">
             <nav class="main-navigation">
-                <ul>
+            <ul>
             <li>
               <a href="#">Главная</a>
             </li>
@@ -34,7 +34,7 @@
       </div>
       </div>
     </header>
-    <main class="container">
+    <div class="container">
         <h1>Средства для ухода</h1>
         <nav class="title-menu">
             <ul>
@@ -49,60 +49,60 @@
                 </li>
             </ul>
         </nav>
-        </div>
-        <section class="manufacturers-filter">
-            <h2 class="filter-title">Производители</h2>
-             <div class="manufacturers-filter">
-                <label>
-                    <input type="checkbox" name="manufacturers" value="baxter-of-california" checked>
-                    BAXTER OF CALIFORNIA
-                </label>
-                <label>
-                    <input type="checkbox" name="manufacturers" value="mr-natty">
-                    MR NATTY
-                </label>
-                <label>
-                    <input type="checkbox" name="manufacturers" value="suavesito"checked>
-                    SUAVECITO
-                </label>
-                <label>
-                    <input type="checkbox" name="manufacturers" value="malin+goetz">
-                    MALIN+GOETZ
-                </label>
-                <label>
-                    <input type="checkbox" name="manufacturers" value="murrays">
-                    MURRAY'S
-                </label>
-                <label>
-                    <input type="checkbox" name="manufacturers" value="american-crew" checked>
-                    AMERICAN CREW
-                </label>
-            </div>
-        </section>
-
-
-        <section class="product-filter">
-            <h2 class="filter-title">Группы товаров</h2>
-            <div class="product-filter">
-                <label>
-                    <input type="radio" name="manufacturers" value="baxter-of-california">
-                    Бритвенные принадлежности
-                </label>
+        <form action="https://echo.barbershop.ru" method="post">
+            <section class="manufacturers-filter">
+                <h2 class="filter-title">Производители</h2>
+                 <div class="manufacturers-filter">
+                    <label>
+                        <input type="checkbox" name="manufacturers" value="baxter-of-california" checked>
+                        BAXTER OF CALIFORNIA
+                    </label>
+                    <label>
+                        <input type="checkbox" name="manufacturers" value="mr-natty">
+                        MR NATTY
+                    </label>
+                    <label>
+                        <input type="checkbox" name="manufacturers" value="suavesito"checked>
+                        SUAVECITO
+                    </label>
+                    <label>
+                        <input type="checkbox" name="manufacturers" value="malin+goetz">
+                        MALIN+GOETZ
+                    </label>
+                    <label>
+                        <input type="checkbox" name="manufacturers" value="murrays">
+                        MURRAY'S
+                    </label>
+                    <label>
+                        <input type="checkbox" name="manufacturers" value="american-crew" checked>
+                        AMERICAN CREW
+                    </label>
+                </div>
             </section>
+        </form>
+
+        <form action="https://echo.barbershop.ru" method="post">
             <section class="product-filter">
-                <label>
-                    <input type="radio" name="manufacturers" value="baxter-of-california" checked>
-                    Средства для ухода
-                </label>
+                <h2 class="filter-title">Группы товаров</h2>
+                <div class="product-filter">
+                    <label>
+                        <input type="radio" name="manufacturers" value="baxter-of-california">
+                        Бритвенные принадлежности
+                    </label>
+                </section>
+                    <label>
+                        <input type="radio" name="manufacturers" value="baxter-of-california" checked>
+                        Средства для ухода
+                    </label>
+                    <label>
+                        <input type="radio" name="manufacturers" value="baxter-of-california">
+                        Аксессуары
+                    </label>
+                    <a href="#" class="btn">Показать</a>
+                </div>
             </section>
-            <section class="radio">
-                <label>
-                    <input type="radio" name="manufacturers" value="baxter-of-california">
-                    Аксессуары
-                </label>
-                <a href="#" class="btn">Показать</a>
-            </div>
-        </section>
+        </form>
+
         <article class="catalog-item">
             <img src="travel-kit-baxter.jpg" width="200" height="150"  alt="Набор для путешествий BAXTER OF CALIFORNIA">
             <div class="product-name">Набор для путешествий “BAXTER OF CALIFORNIA”</div>
@@ -146,10 +146,10 @@
         </article>
 
         <a href="#" class="btn">1</a>
-        <div class="active-btn">2</a>
+        <span class="active-btn">2</span>
         <a href="#" class="btn">3</a>
         <a href="#" class="btn">4</a>
-    </main>
+    </div>
 
     <footer class="main-footer">
         <div class="container clearfix">
