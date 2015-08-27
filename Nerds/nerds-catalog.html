@@ -29,8 +29,54 @@
         <a href="#" class="shopping-cart">Корзина</a>
     </header>
 
-    <div class="container">
+    <div>
+        <div class="left-column">
+        	<form action="#" name="filters">
 
+        		<div class="filter-title">Стоимость</div>
+        		<div class="price-controls">
+        			от <input class="min-price" type="text" value="0">
+        			до <input class="max-price" type="text" value="15000">
+        		</div>
+
+        		<div class="filter-title">Сетка</div>
+        		<label>
+        			<input type="radio" name="grid" value="adaptive" checked>
+        			Адаптивная
+        		</label>
+        		<label>
+        			<input type="radio" name="grid" value="fixed">
+        			Фиксированная
+        		</label>
+        		<label>
+        			<input type="radio" name="grid" value="fluid">
+        			Резиновая
+        		</label>
+
+        		<div class="filter-title">Особенности</div>
+        		<label>
+        			<input type="checkbox" name="features" value="1111" checked>
+        			Слайдер
+        		</label>
+        		<label>
+        			<input type="checkbox" name="features" value="features-block">
+        			Блок преимуществ
+        		</label>
+        		<label>
+        			<input type="checkbox" name="features" value="news" checked>
+        			Новости
+        		</label>
+        		<label>
+        			<input type="checkbox" name="features" value="gallery">
+        			Галерея
+        		</label>
+        		<label>
+        			<input type="checkbox" name="features" value="shopping-cart">
+        			Корзина
+        		</label>
+        		<input class="btn-filters" type="submit" value="Отправить">
+        	<form>
+        </div>
     </div>
 
     <footer class="main-footer">
