@@ -34,15 +34,16 @@
 
     <div class="left-column">
     	<form action="#" name="filters">
-    		<section class="price-filter">
+            <section class="price-filter">
                 <div class="filter-title">Стоимость</div>
-        		<div class="price-controls">
-                    <label>
-            			от <input class="min-price" type="text" value="0">
-            			до <input class="max-price" type="text" value="15000">
-                    </label>
-        		</div>
+                <div class="price-controls">
+                    <label for="min-price">От</label>
+                    <input type="text"  id="min-price" class="min-price" value="0">
+                    <label for="max-price">До</label>
+                    <input type="text"  id="max-price" class="max-price" value="15000">
+                </div>
             </section>
+
             <section class="grid-filter">
         		<div class="filter-title">Сетка</div>
         		<label>
