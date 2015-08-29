@@ -49,10 +49,10 @@
                 </li>
             </ul>
         </nav>
-        <form action="https://echo.barbershop.ru" method="post">
-            <section class="manufacturers-filter">
-                <h2 class="filter-title">Производители</h2>
-                 <div class="manufacturers-filter">
+        <section class="manufacturers">
+            <form action="https://echo.barbershop.ru" method="post">
+                <div class="manufacturers-filter">
+                    <h2 class="filter-title">Производители</h2>
                     <label>
                         <input type="checkbox" name="manufacturers" value="baxter-of-california" checked>
                         BAXTER OF CALIFORNIA
@@ -78,25 +78,25 @@
                         AMERICAN CREW
                     </label>
                 </div>
-            </section>
+                <div class="product-filter">
+                    <h2 class="filter-title">Группы товаров</h2>
+                    <label>
+                        <input type="radio" name="manufacturers" value="baxter-of-california">
+                        Бритвенные принадлежности
+                    </label>
+                    <label>
+                        <input type="radio" name="manufacturers" value="baxter-of-california" checked>
+                        Средства для ухода
+                    </label>
+                    <label>
+                        <input type="radio" name="manufacturers" value="baxter-of-california">
+                        Аксессуары
+                    </label>
+                    <input class="btn-filters" type="submit" value="Показать">
+                </div>
+            </form>
+        </section>
 
-            <section class="product-filter">
-                <h2 class="filter-title">Группы товаров</h2>
-                <label>
-                    <input type="radio" name="manufacturers" value="baxter-of-california">
-                    Бритвенные принадлежности
-                </label>
-                <label>
-                    <input type="radio" name="manufacturers" value="baxter-of-california" checked>
-                    Средства для ухода
-                </label>
-                <label>
-                    <input type="radio" name="manufacturers" value="baxter-of-california">
-                    Аксессуары
-                </label>
-                <input class="btn-filters" type="submit" value="Показать">
-            </section>
-        </form>
 
         <section class="catalog-list">
             <a class="catalog-item" href="#">
