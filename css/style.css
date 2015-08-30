@@ -1,0 +1,32 @@
+.body {
+font-size: 14px;
+line-height: normal;
+color :#283136;
+font-weight: normal;
+font-family: "PT Sans Narrow Bold";
+}
+
+.filter-title {
+    font-size: 24px;
+    line-height: normal;
+    color :#000000;
+    font-weight: normal;
+    font-family: "PT Sans Narrow Bold";
+}
+
+.product-name {
+    font-size: 14px;
+    line-height: 18px;
+    color :#000000;
+    font-weight: normal;
+    font-family: "PT Sans Narrow Bold";
+}
+
+h1 {
+    font-size: 18px;
+    line-height: 30px;
+    color :#000000;
+    font-weight: normal;
+    font-family: "PT Sans Narrow Bold";
+    text-transform: uppercase;
+}
