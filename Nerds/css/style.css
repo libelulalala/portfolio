@@ -43,3 +43,52 @@ font-family: "Roboto Medium", sans-serif;
     font-family: "Roboto Medium";
     text-transform: uppercase;
 }
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    min-height: 100px;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.header
+
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    min-height: 300px;
+}
+
+.main-navigation {
+  float: left;
+  width: 520px;
+  /* для оформления схемы */
+  min-height: 50px;
+}
+
+.shopping-cart {
+  float: right;
+  width: 90px;
+  /* для оформления схемы */
+  min-height: 50px;
+}
+.welcome {
+
+}
+.left-column {
+    float: left;
+    width: 240px;
+}
+.right-column {
+    float: right;
+    width: 560px;
+}
+
+
+.footer {
+    clear: both;
+}
