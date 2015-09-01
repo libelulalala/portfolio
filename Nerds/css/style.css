@@ -1,3 +1,16 @@
+.debug > * {
+outline: 4px solid green;
+}
+.debug > * > * {
+outline: 3px solid red;
+}
+.debug > * > * > * {
+outline: 2px solid orange;
+}
+.debug > * > * > * > * {
+outline: 1px solid gray;
+}
+
 body {
 font-size: 16px;
 line-height: 16px;
