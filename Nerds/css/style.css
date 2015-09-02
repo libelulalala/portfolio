@@ -45,9 +45,8 @@ font-family: "Roboto Medium", sans-serif;
 }
 
 .container {
-    width: 500px;
-    margin: 50px auto;
-    min-height: 100px;
+    width: 880px;
+    margin: 0x auto;
 }
 .clearfix:after {
   content: '';
@@ -60,21 +59,16 @@ font-family: "Roboto Medium", sans-serif;
 .container {
     width: 500px;
     margin: 50px auto;
-    min-height: 300px;
 }
 
 .main-navigation {
   float: left;
   width: 520px;
-  /* для оформления схемы */
-  min-height: 50px;
 }
 
 .shopping-cart {
   float: right;
   width: 90px;
-  /* для оформления схемы */
-  min-height: 50px;
 }
 .welcome {
 
