@@ -9,8 +9,8 @@
   <body class=debug>
     <header class="main-header">
         <div class="container clearfix">
+            <div class="logo-img"><img src="img/logo.png" alt="Nerds"></div>
             <nav class="main-navigation">
-                <div class="logo-img"><img src="img/logo.png" alt="Nerds"></div>
                 <ul>
                     <li>
                         <a href="#">Студия</a>
@@ -31,171 +31,174 @@
         <h1 class="welcome">Добро пожаловать в магазин готовых макетов</h1>
     </header>
 
+    <div class="container clearfix">
+        <div class="left-column">
+            <form action="#" name="filters">
+                <section class="price-filter">
+                    <div class="filter-title">Стоимость</div>
+                    <div class="price-controls">
+                        <label for="min-price">От</label>
+                        <input type="text"  id="min-price" class="min-price" value="0">
+                        <label for="max-price">До</label>
+                        <input type="text"  id="max-price" class="max-price" value="15000">
+                    </div>
+                </section>
 
-    <div class="left-column">
-        <form action="#" name="filters">
-            <section class="price-filter">
-                <div class="filter-title">Стоимость</div>
-                <div class="price-controls">
-                    <label for="min-price">От</label>
-                    <input type="text"  id="min-price" class="min-price" value="0">
-                    <label for="max-price">До</label>
-                    <input type="text"  id="max-price" class="max-price" value="15000">
+                <section class="grid-filter">
+                    <div class="filter-title">Сетка</div>
+                    <label>
+                        <input type="radio" name="grid" value="adaptive" checked>
+                        Адаптивная
+                    </label>
+                    <label>
+                        <input type="radio" name="grid" value="fixed">
+                        Фиксированная
+                    </label>
+                    <label>
+                        <input type="radio" name="grid" value="fluid">
+                        Резиновая
+                    </label>
+                </section>
+                <section class="features-filter">
+                    <div class="filter-title">Особенности</div>
+                    <label>
+                        <input type="checkbox" name="features" value="1111" checked>
+                        Слайдер
+                    </label>
+                    <label>
+                        <input type="checkbox" name="features" value="features-block">
+                        Блок преимуществ
+                    </label>
+                    <label>
+                        <input type="checkbox" name="features" value="news" checked>
+                        Новости
+                    </label>
+                    <label>
+                        <input type="checkbox" name="features" value="gallery">
+                        Галерея
+                    </label>
+                    <label>
+                        <input type="checkbox" name="features" value="shopping-cart">
+                        Корзина
+                    </label>
+                </section>
+                <input class="btn-filters" type="submit" value="Показать">
+            </form>
+        </div>
+
+
+        <div class="right-column">
+            <section class="sorting">
+                <div class="filter-title">Сортировать</div>
+                <div class="sorting-preference">
+                    <ul>
+                        <li>
+                            <a href="#">по цене</a>
+                        </li>
+                        <li>
+                            <a href="#">по типу</a>
+                        </li>
+                        <li>
+                            <a href="#">по функционалу</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a class="sorting-up" href="#"></a>
+                    <a class="sorting-down" href="#"></a>
                 </div>
             </section>
 
-            <section class="grid-filter">
-                <div class="filter-title">Сетка</div>
-                <label>
-                    <input type="radio" name="grid" value="adaptive" checked>
-                    Адаптивная
-                </label>
-                <label>
-                    <input type="radio" name="grid" value="fixed">
-                    Фиксированная
-                </label>
-                <label>
-                    <input type="radio" name="grid" value="fluid">
-                    Резиновая
-                </label>
+            <section class="catalog-list">
+
+                <div class="catalog-item">
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                        <img src="img/aviator-miniature.jpg" width="240" height="240" alt="Aviator">
+                    <div>
+                        <p class="catalog-item-title">Aviator</p>
+                        <p class="catalog-item-description">Одностраничный макет с авторским дизайном</p>
+                        <a href="#" class="btn btn-buy">8000 р.</a>
+                    <div>
+                </div>
+                <div class="catalog-item">
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                        <img src="img/sunset-miniature.jpg" width="240" height="240" alt="Sunset">
+                    <div>
+                        <p class="catalog-item-title">Sunset</p>
+                        <p class="catalog-item-description">Интернет-магазин с личным кабинетом</p>
+                        <a href="#" class="btn btn-buy">10000 р.</a>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                        <img src="img/forte-miniature.jpg" width="240" height="240" alt="Forte">
+                    <div>
+                        <p class="catalog-item-title">Forte</p>
+                        <p class="catalog-item-description">Отличный макет для личного блога</p>
+                        <a href="#" class="btn btn-buy">5000 р.</a>
+                    </div>
+                <div class="catalog-item">
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                        <img src="img/modernThai-miniature.jpg" width="240" height="240" alt="Modern Organic Thai">
+                    <div>
+                        <p class="catalog-item-title">Modern Organic Thai</p>
+                        <p class="catalog-item-description">Сайт для ресторана быстрого питания</p>
+                        <a href="#" class="btn btn-buy">12000 р.</a>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                        <img src="img/avenue-miniature.jpg" width="240" height="240" alt="Avenue">
+                    <div>
+                        <p class="catalog-item-title">Avenue</p>
+                        <p class="catalog-item-description">Макет для блога о путешествиях</p>
+                        <a href="#" class="btn btn-buy">8000 р.</a>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                    <span class="white-dots"><span>
+                        <img src="img/dovetail-miniature.jpg" width="240" height="240" alt="Dovetail">
+                    <div>
+                        <p class="catalog-item-title">Dovetail</p>
+                        <p class="catalog-item-description">Интернет-магазин с галереей товаров</p>
+                        <a href="#" class="btn btn-buy">14000 р.</a>
+                    </div>
             </section>
-            <section class="features-filter">
-                <div class="filter-title">Особенности</div>
-                <label>
-                    <input type="checkbox" name="features" value="1111" checked>
-                    Слайдер
-                </label>
-                <label>
-                    <input type="checkbox" name="features" value="features-block">
-                    Блок преимуществ
-                </label>
-                <label>
-                    <input type="checkbox" name="features" value="news" checked>
-                    Новости
-                </label>
-                <label>
-                    <input type="checkbox" name="features" value="gallery">
-                    Галерея
-                </label>
-                <label>
-                    <input type="checkbox" name="features" value="shopping-cart">
-                    Корзина
-                </label>
+            <section class="pagination">
+                <span class="active-btn">1</span>
+                <a href="#" class="btn">2</a>
+                <a href="#" class="btn">3</a>
+                <a href="#" class="btn">Следующая</a>
             </section>
-            <input class="btn-filters" type="submit" value="Показать">
-        </form>
+        </div>
     </div>
+        <footer class="main-footer">
+            <section class="footer-contacts">
+                NЁRDS DESIGN STUDIO<br>
+                119186, г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                телефон: +7 (495) 666-02-66<br>
+                <a href="#" class="btn btn-write">Напишите нам!</a>
 
-    <div class="right-column">
-        <section class="sorting">
-            <div class="filter-title">Сортировать</div>
-            <div class="sorting-preference">
-                <ul>
-                    <li>
-                        <a href="#">по цене</a>
-                    </li>
-                    <li>
-                        <a href="#">по типу</a>
-                    </li>
-                    <li>
-                        <a href="#">по функционалу</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <a class="sorting-up" href="#"></a>
-                <a class="sorting-down" href="#"></a>
-            </div>
-        </section>
-
-        <section class="catalog-list">
-
-            <div class="catalog-item">
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                    <img src="img/aviator-miniature.jpg" width="240" height="240" alt="Aviator">
-                <div>
-                    <p class="catalog-item-title">Aviator</p>
-                    <p class="catalog-item-description">Одностраничный макет с авторским дизайном</p>
-                    <a href="#" class="btn btn-buy">8000 р.</a>
-                <div>
-            </div>
-            <div class="catalog-item">
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                    <img src="img/sunset-miniature.jpg" width="240" height="240" alt="Sunset">
-                <div>
-                    <p class="catalog-item-title">Sunset</p>
-                    <p class="catalog-item-description">Интернет-магазин с личным кабинетом</p>
-                    <a href="#" class="btn btn-buy">10000 р.</a>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                    <img src="img/forte-miniature.jpg" width="240" height="240" alt="Forte">
-                <div>
-                    <p class="catalog-item-title">Forte</p>
-                    <p class="catalog-item-description">Отличный макет для личного блога</p>
-                    <a href="#" class="btn btn-buy">5000 р.</a>
-                </div>
-            <div class="catalog-item">
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                    <img src="img/modernThai-miniature.jpg" width="240" height="240" alt="Modern Organic Thai">
-                <div>
-                    <p class="catalog-item-title">Modern Organic Thai</p>
-                    <p class="catalog-item-description">Сайт для ресторана быстрого питания</p>
-                    <a href="#" class="btn btn-buy">12000 р.</a>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                    <img src="img/avenue-miniature.jpg" width="240" height="240" alt="Avenue">
-                <div>
-                    <p class="catalog-item-title">Avenue</p>
-                    <p class="catalog-item-description">Макет для блога о путешествиях</p>
-                    <a href="#" class="btn btn-buy">8000 р.</a>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                <span class="white-dots"><span>
-                    <img src="img/dovetail-miniature.jpg" width="240" height="240" alt="Dovetail">
-                <div>
-                    <p class="catalog-item-title">Dovetail</p>
-                    <p class="catalog-item-description">Интернет-магазин с галереей товаров</p>
-                    <a href="#" class="btn btn-buy">14000 р.</a>
-                </div>
-        </section>
-        <section class="pagination">
-            <span class="active-btn">1</span>
-            <a href="#" class="btn">2</a>
-            <a href="#" class="btn">3</a>
-            <a href="#" class="btn">Следующая</a>
-        </section>
+           <section class="footer-social">
+                <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+                <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+                <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+                <div class="title">Давайте дружить, это выгодно!</div>
+                <p>Скидка 10% для друзей из социальных сетей.</p>
+            </section>
     </div>
-    <footer class="main-footer">
-        <section class="footer-contacts">
-            NЁRDS DESIGN STUDIO<br>
-            119186, г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-            телефон: +7 (495) 666-02-66<br>
-            <a href="#" class="btn btn-write">Напишите нам!</a>
-
-       <section class="footer-social">
-            <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
-            <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
-            <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
-            <div class="title">Давайте дружить, это выгодно!</div>
-            <p>Скидка 10% для друзей из социальных сетей.</p>
-        </section>
     </footer>
     <div class="popup">
         <form action="#" method="post">
