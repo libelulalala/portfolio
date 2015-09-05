@@ -24,6 +24,8 @@ line-height: 16px;
 color :#283136;
 font-weight: normal;
 font-family: "Roboto Medium", sans-serif;
+width: 880px;
+margin: 0, auto;
 }
 
 .title-header {
@@ -63,9 +65,14 @@ font-family: "Roboto Medium", sans-serif;
 .header
 
 
+.main-navigation > li  {
+    display: inline-block;
+}
+
+
 .container {
-    width: 500px;
-    margin: 50px auto;
+    width: 880px;
+    margin: 0px auto;
 }
 
 .main-navigation {
@@ -77,19 +84,26 @@ font-family: "Roboto Medium", sans-serif;
   float: right;
   width: 90px;
 }
-.welcome {
+.h1 {
+    width: 880px;
+    margin: 0x auto;
 
 }
 .left-column {
     float: left;
-    width: 240px;
+    width: 250px;
 }
 .right-column {
     float: right;
-    width: 560px;
+    width: 570px;
 }
 
 
 .footer {
     clear: both;
+}
+
+.footer-contacts {
+    float: left;
+    width: 250px;
 }
