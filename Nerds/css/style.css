@@ -107,7 +107,10 @@ font-family: "Roboto Medium", sans-serif;
 .sorting-preference li {
     display:inline-block;
 }
-
+.grid-filter label,
+.features-filter label {
+	display: block;
+}
 .catalog-item {
     display: inline-block;
     width: 240px;
