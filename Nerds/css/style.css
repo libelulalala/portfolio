@@ -29,7 +29,7 @@ box-sizing: border-box; }
     font-family: "Roboto Medium";
 }
 .header{
-    margin: 0x auto;
+    margin: 0 auto;
 }
 
 .logo-img{
@@ -61,13 +61,12 @@ color :#283136;
 font-weight: normal;
 font-family: "Roboto Medium", sans-serif;
 width: 880px;
-margin: 0, auto;
 }
 .container {
     width: 880px;
     margin: 0 auto;
 }
-.clearfix: after {
+.clearfix:after {
   content: '';
   display: table;
   clear: both;
@@ -83,7 +82,7 @@ margin: 0, auto;
 .services-title {
     font-size: 18px;
     line-height: 30px;
-    color :#000000;
+    color: #000000;
     font-weight: normal;
     font-family: "Roboto Medium";
     text-transform: uppercase;
@@ -95,7 +94,7 @@ margin: 0, auto;
 
 .h1 {
     width: 880px;
-    margin: 0x auto;
+    margin: 0 auto;
 }
 
 .left-column {
@@ -112,7 +111,7 @@ margin: 0, auto;
 
 .catalog-item {
     display: inline-block;
-    width:240px;
+    width: 240px;
 }
 
  .catalog-item:nth-child(2n) {
@@ -158,6 +157,7 @@ nav   { }
 .footer {
     float:none;
     clear: both;
+    width: 880px;
 }
 .footer-contacts {
     float: bottom;
