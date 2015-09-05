@@ -65,7 +65,7 @@ margin: 0, auto;
 }
 .container {
     width: 880px;
-    margin: 0x auto;
+    margin: 0 auto;
 }
 .clearfix: after {
   content: '';
@@ -106,6 +106,9 @@ margin: 0, auto;
     float: right;
     width: 570px;
 }
+.sorting-preference li {
+    display:inline-block;
+}
 
 .catalog-item {
     display: inline-block;
@@ -132,7 +135,7 @@ nav   { }
 .max-price { }
 .grid-filter { }
 .features-filter { }
-.sorting-preference { }
+
 .sorting-up { }
 .catalog-list { }
 .white-dots { }
@@ -153,9 +156,10 @@ nav   { }
 
 /*footer*/
 .footer {
+    float:none;
     clear: both;
 }
 .footer-contacts {
-    float: left;
+    float: bottom;
     width: 250px;
 }
