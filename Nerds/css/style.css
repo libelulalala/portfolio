@@ -43,6 +43,7 @@ nav {
 .main-navigation {
   float: left;
   width: 540px;
+  margin: 0;
 }
 h1.welcome {
     font-size: 40px;
@@ -69,6 +70,7 @@ h1.welcome {
 
 .main-navigation  li  {
     display:inline-block;
+
 }
 .shopping-cart {
   float: right;
