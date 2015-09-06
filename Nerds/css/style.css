@@ -56,6 +56,17 @@ h1.welcome {
 }
 
 
+.slides {
+    padding: 0px;
+    float: left;
+    margin: 0;
+}
+.sliders-wrap{
+    float: left;
+    width: 880px;
+    text-align: center;
+}
+
 .main-navigation  li  {
     display:inline-block;
 }
