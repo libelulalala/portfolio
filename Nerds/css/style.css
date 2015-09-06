@@ -18,9 +18,16 @@ box-sizing: border-box; }
 *:after {
 box-sizing: border-box; }
 
+body {
+font-size: 16px;
+line-height: 16px;
+color :#283136;
+font-weight: normal;
+font-family: "Roboto Medium", sans-serif;
+}
+
 
 /*header*/
-
 .title-header {
     font-size: 36px;
     line-height: 36px;
@@ -36,15 +43,18 @@ box-sizing: border-box; }
     float:left;
     width:190px;
 }
+
 nav {
     float:right;
 
 }
+
 .main-navigation {
   float: left;
   width: 540px;
   margin: 0;
 }
+
 h1.welcome {
     font-size: 40px;
     line-height: 40px;
@@ -79,13 +89,7 @@ h1.welcome {
 
 /*содержание страницы*/
 
-body {
-font-size: 16px;
-line-height: 16px;
-color :#283136;
-font-weight: normal;
-font-family: "Roboto Medium", sans-serif;
-}
+
 .container {
     width: 880px;
     margin: 0 auto;
