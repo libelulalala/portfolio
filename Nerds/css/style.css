@@ -180,26 +180,40 @@ input.max-price {
 
 .services:last-child {
   margin-right: 0;
+}
 
-.about { }
+.about-left {
+    float: left;
+    width: 570px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.about-left ul{
+    margin-right: 0 auto;
+}
+
+about-title{
+    margin-right: 0 auto;
+}
+
+.about-right{
+    float: right;
+    width: 230px;
+    margin-right: 20px;
+    margin-top: 136px;
+}
+
 .title { }
-.about-title { }
-
 .logo-img { }
 nav   { }
 .shopping-cart { }
-.welcome  { }
-.filters { }
 .price-filter { }
 .filter-title { }
-
 .grid-filter { }
 .features-filter { }
-
-.sorting-up { }
 .catalog-list { }
 .white-dots { }
-
 .catalog-item-title { }
 .catalog-item-description { }
 .pagination { }
