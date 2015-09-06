@@ -45,9 +45,6 @@ nav {
   width: 540px;
 }
 h1.welcome {
-    padding: 0px 100px;
-    text-align: center;
-    margin: 0;
     font-size: 40px;
     line-height: 40px;
     color :#000000;
@@ -115,13 +112,42 @@ font-family: "Roboto Medium", sans-serif;
     float: left;
     width: 250px;
 }
+
+input.min-price {
+    width: 80px;
+}
+
+input.max-price {
+    width: 80px;
+}
+
 .right-column {
     float: right;
     width: 570px;
 }
+.sorting {
+    width: 570px;
+    margin: 0;
+    padding: 0;
+}
+.sorting,
+.filter-title,
+.sorting-preference {
+    float:left;
+}
+
+
+.sorting-up,
+.sorting-down{
+    float: right;
+}
+.sorting-preference ul {
+    margin: 0;
+}
 .sorting-preference li {
     display:inline-block;
 }
+
 .grid-filter label,
 .features-filter label {
 	display: block;
@@ -147,8 +173,7 @@ nav   { }
 .filters { }
 .price-filter { }
 .filter-title { }
-.min-price { }
-.max-price { }
+
 .grid-filter { }
 .features-filter { }
 
