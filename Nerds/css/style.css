@@ -167,6 +167,7 @@ input.max-price {
 .catalog-item {
     display: inline-block;
     width: 240px;
+    margin-right: 60px;
 }
 
  .catalog-item:nth-child(2n) {
@@ -201,10 +202,30 @@ about-title{
     float: right;
     width: 230px;
     margin-right: 20px;
-    margin-top: 136px;
+    margin-top: 150px;
 }
 
-.title { }
+.social-btn
+.social-btn-inst,
+.social-btn-inst,
+.social-btn-inst {
+    width: 64px;
+    display: inline-block;
+}
+
+.left-column-social{
+    float: left;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.right-column-social {
+    float: right;
+    width: 570px;
+    margin-right: 20px;
+}
+
 .logo-img { }
 nav   { }
 .shopping-cart { }
