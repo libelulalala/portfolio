@@ -131,16 +131,15 @@ input.max-price {
     padding: 0;
 }
 .sorting,
-.filter-title,
+.right-column .filter-title,
 .sorting-preference {
     float:left;
 }
-
-
 .sorting-up,
 .sorting-down{
     float: right;
 }
+
 .sorting-preference ul {
     margin: 0;
 }
@@ -165,7 +164,7 @@ input.max-price {
 .about { }
 .title { }
 .about-title { }
-.popup { }
+
 .logo-img { }
 nav   { }
 .shopping-cart { }
@@ -199,9 +198,13 @@ nav   { }
 .footer {
     float:none;
     clear: both;
-    width: 880px;
+    margin: 0 auto;
 }
 .footer-contacts {
     float: bottom;
     width: 250px;
+}
+.popup {
+    margin: 0 auto;
+    width: 880px;
 }
