@@ -42,8 +42,23 @@ nav {
 }
 .main-navigation {
   float: left;
-  width: 520px;
+  width: 540px;
 }
+h1.welcome {
+    padding: 0px 100px;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    line-height: 40px;
+    color :#000000;
+    font-weight: normal;
+    font-family: "Roboto Medium" sans-serif;
+    padding: 0px 100px;
+    text-align: center;
+    margin: 0;
+}
+
+
 .main-navigation  li  {
     display:inline-block;
 }
