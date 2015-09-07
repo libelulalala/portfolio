@@ -255,12 +255,11 @@ nav   { }
 
 /*footer*/
 .footer {
-    float:none;
+    float: none;
     clear: both;
     margin: 0 auto;
 }
 .footer-contacts {
-    float: bottom;
     width: 250px;
 }
 .popup {
