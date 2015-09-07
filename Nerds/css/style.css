@@ -80,6 +80,7 @@ nav {
 
 .main-navigation  li  {
     display:inline-block;
+    margin-right: 45px;
 
 }
 .shopping-cart {
@@ -171,10 +172,18 @@ input.max-price {
 .catalog-item {
     display: inline-block;
     width: 240px;
+    height: 270px;
     margin-right: 60px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 45px;
 }
 
- .catalog-item:nth-child(2n) {
+p {
+    margin:0;
+}
+
+.catalog-item:nth-child(2n) {
     margin-right:0;
 }
 .services {
@@ -231,7 +240,6 @@ about-title{
 }
 
 .logo-img { }
-nav   { }
 .shopping-cart { }
 .price-filter { }
 .filter-title { }
