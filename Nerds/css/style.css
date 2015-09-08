@@ -33,7 +33,7 @@ font-family: "Roboto Medium", sans-serif;
     line-height: 36px;
     color :#000000;
     font-weight: normal;
-    font-family: "Roboto Medium";
+    font-family: "Roboto Medium" sans-serif;
 }
 .header{
     margin: 0 auto;
@@ -55,28 +55,7 @@ nav {
   margin: 0;
 }
 
-.welcome {
-    font-size: 40px;
-    line-height: 40px;
-    color :#000000;
-    font-weight: normal;
-    font-family: "Roboto Medium" sans-serif;
-    padding: 0px 100px;
-    text-align: center;
-    margin: 0;
-}
 
-
-.slides {
-    padding: 0px;
-    float: left;
-    margin: 0;
-}
-.sliders-wrap{
-    float: left;
-    width: 880px;
-    text-align: center;
-}
 
 .main-navigation  li  {
     display:inline-block;
@@ -140,9 +119,17 @@ input.max-price {
     margin: 0;
     padding: 0;
 }
+.sorting-title {
+    font-size: 12px;
+    line-height: 18px;
+    color :#000000;
+    font-weight: normal;
+    font-family: "Roboto Medium";
+    text-transform: uppercase;
+}
 
 .sorting,
-.right-column .filter-title,
+ .right-column .filter-title,
 .sorting-preference {
     float:left;
 }
@@ -154,10 +141,14 @@ input.max-price {
 
 .sorting-preference ul {
     margin: 0;
+    font-size: 0;
 }
 
 .sorting-preference li {
     display:inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 41px;
 }
 
 .grid-filter label,
@@ -179,6 +170,27 @@ input.max-price {
 }
 
 /*Главная */
+.slides {
+    padding: 0px;
+    float: left;
+    margin: 0;
+}
+.sliders-wrap{
+    float: left;
+    width: 880px;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 40px;
+    line-height: 40px;
+    color :#000000;
+    font-weight: normal;
+    font-family: "Roboto Medium" sans-serif;
+    padding: 0px 100px;
+    text-align: center;
+    margin: 0;
+}
 .services {
     float: left;
     width: 240px;
