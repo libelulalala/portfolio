@@ -191,16 +191,10 @@ input.max-price {
     text-align: center;
     margin: 0;
 }
-.services {
-    float: left;
-    width: 240px;
-    margin-right: 80px;
-}
 
-.services:last-child {
-  margin-right: 0;
+.services-block{
+    font-size: 0;
 }
-
 .services-title {
     font-size: 18px;
     line-height: 30px;
@@ -210,9 +204,18 @@ input.max-price {
     text-transform: uppercase;
 }
 
-.services{
+.services {
     display: inline-block;
+    width: 240px;
+    font-size: 15px;
+    line-height: 22px;
+    margin-right: 80px;
 }
+
+.services:last-child {
+  margin-right: 0;
+}
+
 .about-left {
     float: left;
     width: 570px;
