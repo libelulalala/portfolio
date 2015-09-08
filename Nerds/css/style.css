@@ -207,7 +207,7 @@ p {
     margin-right: 0 auto;
 }
 
-about-title{
+.about-title{
     margin-right: 0 auto;
 }
 
@@ -216,27 +216,6 @@ about-title{
     width: 230px;
     margin-right: 20px;
     margin-top: 150px;
-}
-
-.social-btn
-.social-btn-vk,
-.social-btn-fb,
-.social-btn-inst {
-    width: 64px;
-    display: inline-block;
-}
-
-.left-column-social{
-    float: left;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 20px;
-}
-
-.right-column-social {
-    float: right;
-    width: 570px;
-    margin-right: 20px;
 }
 
 .logo-img { }
@@ -270,6 +249,37 @@ about-title{
 .footer-contacts {
     width: 250px;
 }
+.left-column-social{
+    font-size: 0;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.social-btn,
+.social-btn-vk,
+.social-btn-fb,
+.social-btn-inst {
+    display: inline-block;
+    font-size: 14px;
+    width: 64px;
+    height: 64px;
+    vertical-align: middle;
+    margin-right: 0px;
+}
+
+.social-btn-vk,
+.social-btn-fb {
+    margin-right: 30px;
+}
+
+
+.right-column-social {
+    float: right;
+    width: 540px;
+    margin-right: 20px;
+
+}
+
 .popup {
     margin: 0 auto;
     width: 880px;
