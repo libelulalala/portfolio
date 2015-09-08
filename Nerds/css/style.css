@@ -52,15 +52,18 @@ nav {
 .main-navigation {
   float: left;
   width: 540px;
-  margin: 0;
+
 }
-
-
+.main-navigation ul{
+  margin: 0;
+  font-size: 0px;
+}
 
 .main-navigation  li  {
     display:inline-block;
     margin-right: 45px;
-
+    font-size: 14px;
+    line-height: 30px;
 }
 .shopping-cart {
   float: right;
