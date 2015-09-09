@@ -224,12 +224,9 @@ p {
     margin-right: 20px;
 }
 
+.about-title,
 .about-left ul{
-    margin-right: 0 auto;
-}
-
-.about-title{
-    margin-right: 0 auto;
+    margin-right: 0;
 }
 
 .about-right{
