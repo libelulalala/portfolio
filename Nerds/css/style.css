@@ -1,29 +1,29 @@
 .debug > * {
-outline: 4px solid green;
+    outline: 4px solid green;
 }
 .debug > * > * {
-outline: 3px solid red;
+    outline: 3px solid red;
 }
 .debug > * > * > * {
-outline: 2px solid orange;
+    outline: 2px solid orange;
 }
 .debug > * > * > * > * {
-outline: 1px solid gray;
+    outline: 1px solid gray;
 }
 
 * {
-box-sizing: border-box; }
+    box-sizing: border-box; }
 *:before {
-box-sizing: border-box; }
+    box-sizing: border-box; }
 *:after {
-box-sizing: border-box; }
+    box-sizing: border-box; }
 
 body {
-font-size: 16px;
-line-height: 16px;
-color :#283136;
-font-weight: normal;
-font-family: "Roboto Medium", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color :#283136;
+    font-weight: normal;
+    font-family: "Roboto Medium", "Arial", sans-serif;
 }
 
 
@@ -44,19 +44,14 @@ font-family: "Roboto Medium", "Arial", sans-serif;
     width:190px;
 }
 
-nav {
-    float:right;
-
-}
-
 .main-navigation {
-  float: left;
-  width: 540px;
-
+    float: left;
+    width: 540px;
 }
+
 .main-navigation ul{
-  margin: 0;
-  font-size: 0px;
+    margin: 0;
+    font-size: 0px;
 }
 
 .main-navigation  li  {
@@ -66,8 +61,8 @@ nav {
     line-height: 30px;
 }
 .shopping-cart {
-  float: right;
-  width: 90px;
+    float: right;
+    width: 90px;
 }
 
 /*содержание страницы*/
@@ -77,9 +72,9 @@ nav {
     margin: 0 auto;
 }
 .clearfix:after {
-  content: '';
-  display: table;
-  clear: both;
+    content: '';
+    display: table;
+    clear: both;
 }
 .title {
     font-size: 36px;
@@ -121,6 +116,7 @@ input.max-price {
     margin: 0;
     padding: 0;
 }
+
 .sorting-title {
     font-size: 12px;
     line-height: 18px;
@@ -131,7 +127,7 @@ input.max-price {
 }
 
 .sorting,
- .right-column .filter-title,
+.right-column .filter-title,
 .sorting-preference {
     float:left;
 }
@@ -155,7 +151,7 @@ input.max-price {
 
 .grid-filter label,
 .features-filter label {
-	display: block;
+    display: block;
 }
 
 .catalog-list{
@@ -221,7 +217,7 @@ input.max-price {
 }
 
 .services:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .about-left {
