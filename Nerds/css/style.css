@@ -173,6 +173,7 @@ p {
 .slides {
     padding: 0px;
     float: left;
+    width: 880px;
     margin: 0;
 }
 .sliders-wrap{
