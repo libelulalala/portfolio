@@ -98,11 +98,7 @@ p {
     width: 250px;
 }
 
-input.min-price {
-    width: 80px;
-}
-
-input.max-price {
+.left-column input[type="text"] {
     width: 80px;
 }
 
