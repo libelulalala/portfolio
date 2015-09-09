@@ -52,6 +52,7 @@ body {
 .main-navigation ul{
     margin: 0;
     font-size: 0px;
+    text-align: center;
 }
 
 .main-navigation  li  {
@@ -59,6 +60,7 @@ body {
     margin-right: 45px;
     font-size: 14px;
     line-height: 30px;
+    vertical-align: middle;
 }
 .shopping-cart {
     float: right;
