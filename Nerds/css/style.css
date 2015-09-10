@@ -57,10 +57,10 @@ body {
 
 .main-navigation  li  {
     display:inline-block;
+    vertical-align: middle;
     margin-right: 45px;
     font-size: 14px;
     line-height: 30px;
-    vertical-align: middle;
 }
 .shopping-cart {
     float: right;
@@ -159,6 +159,7 @@ p {
 
 .sorting-preference li {
     display:inline-block;
+    vertical-align: middle;
     font-size: 12px;
     line-height: 18px;
     margin-left: 41px;
@@ -175,6 +176,7 @@ p {
 
 .catalog-item {
     display: inline-block;
+    vertical-align: top;
     width: 240px;
     font-size: 16px;
     line-height: 22px;
@@ -226,6 +228,7 @@ p {
 
 .services {
     display: inline-block;
+    vertical-align: middle;
     width: 240px;
     font-size: 15px;
     line-height: 22px;
@@ -279,6 +282,7 @@ p {
 .social-btn-fb,
 .social-btn-inst {
     display: inline-block;
+    vertical-align: middle;
     font-size: 14px;
     width: 64px;
     height: 64px;
