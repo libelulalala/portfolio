@@ -99,6 +99,14 @@ p {
     float: left;
     width: 250px;
 }
+.filter-title {
+    font-size: 12px;
+    line-height: 18px;
+    color :#000000;
+    font-weight: normal;
+    font-family: "Roboto Medium", "Arial", sans-serif;
+    text-transform: uppercase;
+}
 
 .left-column input[type="text"] {
     width: 80px;
@@ -124,15 +132,24 @@ p {
     text-transform: uppercase;
 }
 
-.sorting,
-.right-column .filter-title,
+.sorting{
+    float:left;
+    width: 570px;
+}
+
+.right-column .filter-title{
+    float:left;
+    width: 90px;
+}
 .sorting-preference {
     float:left;
+    width: 340px;
 }
 
 .sorting-up,
 .sorting-down{
     float: right;
+    width: 15px;
 }
 
 .sorting-preference ul {
@@ -241,7 +258,6 @@ p {
 
 /*footer*/
 .footer {
-    float: none;
     clear: both;
     margin: 0 auto;
 }
@@ -253,6 +269,7 @@ p {
 .left-column-social{
     font-size: 0;
     float: left;
+    width: 252px;
     margin-left: 10px;
     margin-right: 20px;
 }
