@@ -203,12 +203,13 @@ p {
 
 .catalog-list{
     font-size: 0px;
+    text-align: left;
 }
 
 .catalog-item {
     display: inline-block;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
     width: 240px;
     font-size: 16px;
     line-height: 22px;
@@ -221,7 +222,10 @@ p {
 .catalog-item:nth-child(2n) {
     margin-right: 0;
 }
-
+.catalog-item-description{
+    padding-right: 30px;
+    padding-left: 30px;
+}
 /*Кнопки */
 .btn{
     display:inline-block;
