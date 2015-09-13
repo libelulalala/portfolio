@@ -23,8 +23,10 @@ body {
     line-height: 16px;
     color :#283136;
     font-weight: normal;
-    font-family: "Roboto Medium", "Arial", sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     min-width: 900px;
+
+    background-color: #ffffff;
 }
 
 
@@ -34,7 +36,7 @@ body {
     line-height: 36px;
     color :#000000;
     font-weight: normal;
-    font-family: "Roboto Medium", "Arial", sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 .header{
     margin: 0 auto;
@@ -63,7 +65,7 @@ body {
     text-align: left;
     margin-right: 45px;
     font-weight: normal;
-    font-family: "Roboto Medium", "Arial", sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     line-height: 30px;
     text-transform: uppercase;
@@ -72,10 +74,10 @@ body {
 .main-navigation a {
     display: block;
     text-decoration: none;
-    color: 000000;
+    color: #000000;
 }
 .main-navigation a:hover {
-    color: fb565a;
+    color: #fb565a;
 }
 
 .shopping-cart {
@@ -98,8 +100,8 @@ body {
     font-size: 36px;
     line-height: 36px;
     color :#000000;
-    font-weight: normal;
-    font-family: "Roboto Medium", "Arial", sans-serif;
+    font-weight: 400;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .h1 {
@@ -119,8 +121,8 @@ p {
     font-size: 12px;
     line-height: 18px;
     color :#000000;
-    font-weight: normal;
-    font-family: "Roboto Medium", "Arial", sans-serif;
+    font-weight: 400;
+    font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
 
@@ -143,8 +145,8 @@ p {
     font-size: 12px;
     line-height: 18px;
     color :#000000;
-    font-weight: normal;
-    font-family: "Roboto Medium", "Arial", sans-serif;
+    font-weight: 400;
+    font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
 
@@ -225,8 +227,8 @@ p {
     font-size: 40px;
     line-height: 40px;
     color :#000000;
-    font-weight: normal;
-    font-family: "Roboto Medium", "Arial", sans-serif;
+    font-weight: 400;
+    font-family: "Roboto", "Arial", sans-serif;
     padding: 0px 100px;
     text-align: center;
     margin: 0;
@@ -239,8 +241,8 @@ p {
     font-size: 18px;
     line-height: 30px;
     color: #000000;
-    font-weight: normal;
-    font-family: "Roboto Medium", "Arial", sans-serif;
+    font-weight: 400;
+    font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
 
