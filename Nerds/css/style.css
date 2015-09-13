@@ -62,9 +62,22 @@ body {
     vertical-align: top;
     text-align: left;
     margin-right: 45px;
+    font-weight: normal;
+    font-family: "Roboto Medium", "Arial", sans-serif;
     font-size: 14px;
     line-height: 30px;
+    text-transform: uppercase;
 }
+
+.main-navigation a {
+    display: block;
+    text-decoration: none;
+    color: 000000;
+}
+.main-navigation a:hover {
+    color: fb565a;
+}
+
 .shopping-cart {
     float: right;
     max-width: 120px;
