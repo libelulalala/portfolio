@@ -64,6 +64,7 @@ body {
     vertical-align: top;
     text-align: left;
     margin-right: 45px;
+    margin-bottom: 80px;
     font-weight: normal;
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
@@ -71,19 +72,27 @@ body {
     text-transform: uppercase;
 }
 
-.main-navigation a {
+.main-navigation a,
+.shopping-cart  {
     display: block;
     text-decoration: none;
     color: #000000;
 }
-.main-navigation a:hover {
+.main-navigation a:hover,
+.shopping-cart:hover {
     color: #fb565a;
+}
+
+.main-navigation a:active,
+.shopping-cart:active {
+    color: #8f8f8f;
 }
 
 .shopping-cart {
     float: right;
     max-width: 120px;
 }
+
 
 /*содержание страницы*/
 
