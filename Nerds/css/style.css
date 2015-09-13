@@ -275,12 +275,15 @@ p {
 .btn-write-us:active,
 .btn-sites:active{
     background-color: #b63538;
+    box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 .btn-apps:active{
     background-color: #009053;
+    box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 .btn-presentation:active{
     background-color: #c09b24;
+    box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 
 /*Пагинация */
@@ -326,6 +329,7 @@ p {
 }
 .btn-pagination:active{
     background: #d5d5d5;
+    box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 
 .btn-pagination-next{
