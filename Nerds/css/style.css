@@ -240,30 +240,38 @@ p {
 
 .btn-more{width: 240px;}
 
-.btn-sites{}
-.btn-apps{}
-.btn-presentation{}
-.btn-pagination-active{}
-.btn-pagination-active{}
-.btn-write-us{}
+.btn-sites{background-color: #fb565a;}
+.btn-apps{background-color: #00ca74;}
+.btn-presentation{background-color: #efc84a;}
 
-.btn:hover{}
-.btn-more:hover{}
-.btn-sites:hover{}
-.btn-apps:hover{}
-.btn-presentation:hover{}
+.btn-pagination-active{}
+.btn-pagination-active{}
+
+.btn-write-us{width: 204px;}
+
+.btn:hover,
+.btn-more:hover,
+.btn-sites:hover{background-color: #d6494d;}
+
+.btn-apps:hover{background-color: #01a25e;}
+
+.btn-presentation:hover{background-color: #d6ae2c;}
+
 .btn-pagination-active:hover{}
 .btn-pagination-active:hover{}
+
 .btn-write-us:hover{}
 
 
-.btn:active{}
-.btn-more:active{}
-.btn-sites:active{}
-.btn-apps:active{}
-.btn-presentation:active{}
+.btn:active,
+.btn-more:active,
+.btn-sites:active{background-color: #b63538;}
+.btn-apps:active{background-color: #009053;}
+.btn-presentation:active{background-color: #c09b24;}
+
 .btn-pagination-active:active{}
 .btn-pagination-active:active{}
+
 .btn-write-us:active{}
 
 /*Главная */
