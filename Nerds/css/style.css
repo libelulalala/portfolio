@@ -58,7 +58,8 @@ body {
 
 .main-navigation  li  {
     display:inline-block;
-    vertical-align: middle;
+    vertical-align: top;
+    text-align: left;
     margin-right: 45px;
     font-size: 14px;
     line-height: 30px;
@@ -160,7 +161,8 @@ p {
 
 .sorting-preference li {
     display:inline-block;
-    vertical-align: middle;
+    vertical-align: top;
+    text-align: left;
     font-size: 12px;
     line-height: 18px;
     margin-left: 41px;
@@ -178,6 +180,7 @@ p {
 .catalog-item {
     display: inline-block;
     vertical-align: top;
+    text-align: left;
     width: 240px;
     font-size: 16px;
     line-height: 22px;
@@ -229,7 +232,8 @@ p {
 
 .services {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
+    text-align: left;
     width: 240px;
     font-size: 15px;
     line-height: 22px;
@@ -283,7 +287,8 @@ p {
 .social-btn-fb,
 .social-btn-inst {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
+    text-align: left;
     font-size: 14px;
     width: 64px;
     height: 64px;
