@@ -237,42 +237,98 @@ p {
     text-transform: uppercase;
 }
 
+.btn-more{
+    width: 240px;
+}
 
-.btn-more{width: 240px;}
+.btn-sites{
+    background-color: #fb565a;
+}
+.btn-apps{
+    background-color: #00ca74;
+}
+.btn-presentation{
+    background-color: #efc84a;
+}
 
-.btn-sites{background-color: #fb565a;}
-.btn-apps{background-color: #00ca74;}
-.btn-presentation{background-color: #efc84a;}
-
-.btn-pagination-active{}
-.btn-pagination-active{}
-
-.btn-write-us{width: 204px;}
+.btn-write-us{
+    width: 204px;
+}
 
 .btn:hover,
 .btn-more:hover,
-.btn-sites:hover{background-color: #d6494d;}
+.btn-write-us:hover,
+.btn-sites:hover{
+    background-color: #d6494d;
+}
 
-.btn-apps:hover{background-color: #01a25e;}
+.btn-apps:hover{
+    background-color: #01a25e;
+}
 
-.btn-presentation:hover{background-color: #d6ae2c;}
-
-.btn-pagination-active:hover{}
-.btn-pagination-active:hover{}
-
-.btn-write-us:hover{}
-
+.btn-presentation:hover{
+    background-color: #d6ae2c;
+}
 
 .btn:active,
 .btn-more:active,
-.btn-sites:active{background-color: #b63538;}
-.btn-apps:active{background-color: #009053;}
-.btn-presentation:active{background-color: #c09b24;}
+.btn-write-us:active,
+.btn-sites:active{
+    background-color: #b63538;
+}
+.btn-apps:active{
+    background-color: #009053;
+}
+.btn-presentation:active{
+    background-color: #c09b24;
+}
 
-.btn-pagination-active:active{}
-.btn-pagination-active:active{}
+/*Пагинация */
+.pagination{
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;}
 
-.btn-write-us:active{}
+.btn-pagination-active{
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 34px;
+    height: 38px;
+    padding-top: 7px;
+    background: #fff;
+    border: 2px solid #f1f1f1;
+    border-radius:3px;
+}
+
+.btn-pagination{
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 38px;
+    height: 38px;
+    padding-top: 7px;
+    background-color: #f1f1f1;
+    border-radius:3px;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-pagination:hover{
+    background: #e5e5e5;
+}
+.btn-pagination:active{
+    background: #d5d5d5;
+}
+
+.btn-pagination-next{
+    width: 140px;
+}
 
 /*Главная */
 .slides {
