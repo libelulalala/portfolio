@@ -54,6 +54,7 @@ body {
     margin: 0;
     font-size: 0px;
     text-align: center;
+    list-style: none;
 }
 
 .main-navigation  li  {
@@ -66,7 +67,7 @@ body {
 }
 .shopping-cart {
     float: right;
-    width: 120px;
+    max-width: 120px;
 }
 
 /*содержание страницы*/
