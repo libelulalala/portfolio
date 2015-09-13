@@ -124,11 +124,13 @@ p {
 /*Каталог */
 .left-column {
     float: left;
-    width: 250px;
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 80px;
 }
 .filter-title {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 30px;
     color :#000000;
     font-weight: 400;
     font-family: "Roboto", "Arial", sans-serif;
@@ -141,16 +143,20 @@ p {
 
 .right-column {
     float: right;
-    width: 570px;
+    width: 550px;
 }
 
 .sorting {
-    width: 570px;
+    float:left;
+    width: 550px;
     margin: 0;
+    margin-bottom: 21px;
     padding: 0;
 }
 
 .sorting-title {
+    float:left;
+    width: 90px;
     font-size: 12px;
     line-height: 18px;
     color :#000000;
@@ -159,24 +165,15 @@ p {
     text-transform: uppercase;
 }
 
-.sorting{
-    float:left;
-    width: 570px;
+.sorting-btns{
+    float: right;
+    width: 30px;
+    margin-right:10px;
 }
 
-.right-column .filter-title{
-    float:left;
-    width: 90px;
-}
 .sorting-preference {
     float:left;
     width: 340px;
-}
-
-.sorting-up,
-.sorting-down{
-    float: right;
-    width: 15px;
 }
 
 .sorting-preference ul {
@@ -186,11 +183,17 @@ p {
 
 .sorting-preference li {
     display:inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     text-align: left;
     font-size: 12px;
     line-height: 18px;
     margin-left: 41px;
+    border-bottom: 2px dotted #00ca74;
+}
+.sorting-preference  a{
+    display: block;
+    text-decoration: none;
+    color: #b2b2b2;
 }
 
 .grid-filter label,
@@ -216,7 +219,7 @@ p {
 }
 
 .catalog-item:nth-child(2n) {
-    margin-right:0;
+    margin-right:10px;
 }
 
 /*Главная */
