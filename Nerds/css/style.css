@@ -424,7 +424,6 @@ footer {
     float: left;
     width: 250px;
     background: #fff;
-
     font-size: 16px;
     line-height: 20px;
     color: #000000;
@@ -443,12 +442,11 @@ footer {
     font-size: 16px;
     line-height: 30px;
     font-weight: 700;
-    margin-bottom: 25px;}
+    margin-bottom: 23px;}
 
-.telephone{
-    margin-top: 25px;
-    margin-bottom: 35px;
-}
+.address p{
+    margin-bottom: 20px;}
+
 
 
 .footer-social{
