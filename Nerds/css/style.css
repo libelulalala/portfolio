@@ -411,16 +411,49 @@ p {
 
 
 /*footer*/
-.footer {
+footer {
     clear: both;
     margin: 0 auto;
+
 }
+.footer-contacts{
+    background: url("../img/map.jpg");
+    background-size: cover;}
 
-
-.footer-contacts {
+.address {
+    float: left;
     width: 250px;
-    background-image: url("img/map.jpg");
+    background: #fff;
+
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto", "Arial", sans-serif;
+
+    margin-top: 88px;
+    margin-bottom: 88px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 26px;
 }
+.address-title{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;}
+
+.telephone{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+
+.footer-social{
+    float: left;
+    width: 880px;}
 
 .left-column-social{
     font-size: 0;
