@@ -416,8 +416,10 @@ p {
     margin: 0 auto;
 }
 
+
 .footer-contacts {
     width: 250px;
+    background-image: url("img/map.jpg");
 }
 
 .left-column-social{
