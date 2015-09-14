@@ -308,6 +308,7 @@ p {
     text-align: center;
     vertical-align: middle;
     width: 34px;
+    padding: 8px;
     background: #fff;
     border: 2px solid #f1f1f1;
     border-radius:3px;
