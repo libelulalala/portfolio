@@ -230,7 +230,7 @@ p {
 .btn{
     display:inline-block;
     width: 140px;
-    padding: 5px;
+    padding: 10px 5px;
     background-color: #fb565a;
     border-radius:3px;
     text-decoration: none;
@@ -308,8 +308,6 @@ p {
     text-align: center;
     vertical-align: middle;
     width: 34px;
-    height: 38px;
-    padding-top: 7px;
     background: #fff;
     border: 2px solid #f1f1f1;
     border-radius:3px;
@@ -320,8 +318,7 @@ p {
     text-align: center;
     vertical-align: middle;
     width: 38px;
-    height: 38px;
-    padding-top: 7px;
+    padding: 10px;
     background-color: #f1f1f1;
     border-radius:3px;
     text-decoration: none;
@@ -433,19 +430,16 @@ footer {
     margin-top: 88px;
     margin-bottom: 88px;
     margin-left: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    padding-bottom: 26px;
+    padding: 20px;
 }
 .address-title{
     font-size: 16px;
     line-height: 30px;
     font-weight: 700;
-    margin-bottom: 23px;}
+    margin-bottom: 20px;}
 
 .address p{
-    margin-bottom: 20px;}
+    margin-bottom: 25px;}
 
 
 
