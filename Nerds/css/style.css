@@ -146,6 +146,7 @@ p {
     margin-left: 10px;
     margin-right: 80px;
 }
+
 .filter-title {
     font-size: 18px;
     line-height: 30px;
@@ -154,6 +155,52 @@ p {
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
+
+
+.range-controls {
+  position: relative;
+  height: 41px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 4px;
+  height: 4px;
+  cursor: pointer;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  background: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-controls .toggle-min {
+  left: 20px;
+}
+
+.range-controls .toggle-max {
+  left: 145px;
+}
+
+
 
 .left-column input[type="text"] {
     width: 80px;
