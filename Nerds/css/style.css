@@ -847,27 +847,39 @@ footer {
     padding-top: 10px;
 }
 
-.social-btn,
-.social-btn-vk,
-.social-btn-fb,
-.social-btn-inst {
+.icon-vk,
+.icon-facebook,
+.icon-instagramm{
     display: inline-block;
     vertical-align: top;
-    text-align: left;
-    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 23px;
+    line-height:60px;
     width: 64px;
     height: 64px;
-    vertical-align: middle;
-    margin-right: 0px;
+    color: #fff;
+    background: #e1e1e1;
+    border-radius:50%;
 }
 
-.social-btn-vk,
-.social-btn-fb {
+.icon-vk,
+.icon-facebook {
     margin-right: 30px;
 }
-.social-btn-vk{background: #fff url('../img/logo-vk.png') no-repeat center;}
-.social-btn-fb{background: #fff url('../img/logo-fb.png') no-repeat center;}
-.social-btn-inst{background: #fff url('../img/logo-inst.png') no-repeat center;}
+.icon-vk:hover,
+.icon-facebook:hover,
+.icon-instagramm:hover{
+    background: #fb565a;
+}
+
+.icon-vk:active,
+.icon-facebook:active,
+.icon-instagramm:active{
+    background: #d6494d;
+    box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
+}
 
 .right-column-social {
     float: right;
