@@ -395,15 +395,26 @@ display: block;
     display:inline-block;
     vertical-align: middle;
     text-align: left;
+    color: #b2b2b2;
     font-size: 12px;
     line-height: 18px;
     margin-left: 41px;
-    border-bottom: 2px dotted #00ca74;
+
 }
+
 .sorting-preference  a{
     display: block;
     text-decoration: none;
     color: #b2b2b2;
+    border-bottom: 2px dotted #00ca74;
+}
+.sorting-preference  a:hover{
+    color: #000;
+    border-bottom: 2px solid #00ca74;
+}
+.sorting-preference  a:active{
+    color: #000;
+    border-bottom: none;
 }
 
 .sorting-btns{
@@ -430,12 +441,12 @@ display: block;
 
 .icon-up-dir:hover,
 .icon-down-dir:hover{
-
+color: #c1c1c1;
 }
 
 .icon-up-dir:active,
 .icon-down-dir:active{
-
+color: #000;
 }
 
 .catalog-list{
