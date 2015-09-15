@@ -54,41 +54,32 @@
 
                 <section class="grid-filter">
                     <div class="filter-title">Сетка</div>
-                    <label>
-                        <input type="radio" name="grid" value="adaptive" checked>
-                        Адаптивная
-                    </label>
-                    <label>
-                        <input type="radio" name="grid" value="fixed">
-                        Фиксированная
-                    </label>
-                    <label>
-                        <input type="radio" name="grid" value="fluid">
-                        Резиновая
-                    </label>
+                    <input type="radio" name="grid" id="adaptive" checked>
+                    <label for="adaptive">Адаптивная</label>
+
+                    <input type="radio" name="grid" id="fixed">
+                    <label for="fixed">Фиксированная</label>
+
+                    <input type="radio" name="grid" id="fluid">
+                    <label for="fluid">Резиновая</label>
                 </section>
+
                 <section class="features-filter">
                     <div class="filter-title">Особенности</div>
-                    <label>
-                        <input type="checkbox" name="features" value="1111" checked>
-                        Слайдер
-                    </label>
-                    <label>
-                        <input type="checkbox" name="features" value="features-block">
-                        Блок преимуществ
-                    </label>
-                    <label>
-                        <input type="checkbox" name="features" value="news" checked>
-                        Новости
-                    </label>
-                    <label>
-                        <input type="checkbox" name="features" value="gallery">
-                        Галерея
-                    </label>
-                    <label>
-                        <input type="checkbox" name="features" value="shopping-cart">
-                        Корзина
-                    </label>
+                    <input type="checkbox" name="features" value="slider" checked>
+                    <label for="slider">Слайдер</label>
+
+                    <input type="checkbox" name="features" value="features-block">
+                    <label for="features-block">Блок преимуществ</label>
+
+                    <input type="checkbox" name="features" value="news" checked>
+                    <label for="news">Новости</label>
+
+                    <input type="checkbox" name="features" value="gallery">
+                    <label for="gallery">Галерея</label>
+
+                    <input type="checkbox" name="features" value="shopping-cart">
+                    <label for="shopping-cart">Корзина</label>
                 </section>
                 <input class="btn-filters" type="submit" value="Показать">
             </form>

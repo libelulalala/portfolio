@@ -299,6 +299,56 @@ p {
     width: 80px;
 }
 
+.left-column input[type="radio"],
+.left-column input[type="checkbox"]{
+    display: none;
+}
+
+.left-column input[type="radio"] + label{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+    .left-column input[type="radio"] + label::before{
+    content: '\25cb';
+    font-family: "symbols-nerds";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.left-column input[type="radio"]:checked + label::before{
+ content: '\25cf';
+}
+
+.left-column input[type="checkbox"] + label{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.left-column input[type="checkbox"] + label::before{
+    content: '\2610';
+    font-family: "symbols-nerds";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.left-column input[type="checkbox"]:checked + label::before{
+    content: '\2611';
+}
+
 .right-column {
     float: right;
     width: 550px;
