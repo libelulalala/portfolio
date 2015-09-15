@@ -350,6 +350,12 @@ p {
     content: '\2611';
 }
 
+.grid-filter label,
+.features-filter label {
+display: block;
+}
+
+
 .right-column {
     float: right;
     width: 550px;
@@ -374,10 +380,6 @@ p {
     text-transform: uppercase;
 }
 
-.sorting-btns{
-    float: right;
-    width: 30px;
-}
 
 .sorting-preference {
     float:left;
@@ -404,9 +406,36 @@ p {
     color: #b2b2b2;
 }
 
-.grid-filter label,
-.features-filter label {
-    display: block;
+.sorting-btns{
+    float: right;
+    width: 80px;
+    padding: 0;
+    padding-right: 10px;
+    margin: 0;
+    text-align: right;
+}
+
+.icon-up-dir,
+.icon-down-dir{
+    content: '\25bc';
+    font-family: "symbols-nerds";
+    font-size: 23px;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.icon-up-dir{color: #00ca74;}
+.icon-down-dir{color: #c1c1c1;}
+
+
+.icon-up-dir:hover,
+.icon-down-dir:hover{
+
+}
+
+.icon-up-dir:active,
+.icon-down-dir:active{
+
 }
 
 .catalog-list{
@@ -505,6 +534,7 @@ p {
     color: #000;
     background-color: #f1f1f1;
     border-radius:3px;
+    margin-left: 10px;
 }
 .btn-filters:hover{
     background-color: #e5e5e5;
