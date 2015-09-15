@@ -758,30 +758,43 @@ color: #000;
     margin-right: 20px;
     margin-top: 150px;
 }
-.partners{}
+.partners{width: 880px;}
+
 .glukhanko,
 .htmlacademy,
 .borodinski{
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    font-size: 14px;
-    width: 64px;
-    vertical-align: middle;
-    margin-right: 0px;
-
+    text-decoration: none;
+    width: 230px;
+    padding: 82px 0;
+    opacity: 0.2;
 }
 
+.glukhanko:hover,
+.htmlacademy:hover,
+.borodinski:hover,
+.glukhanko:active,
+.htmlacademy:active,
+.borodinski:active{
+    opacity: 1;
+}
+
+.glukhanko,
+.htmlacademy{margin-right: 80px;}
+.borodinski{margin-right: 10px;}
+
 .glukhanko{
-    background: url("../img/glukhanko.png");
+    background: url("../img/glukhanko.png") no-repeat center;
 }
 
 .htmlacademy{
-    background: url("../img/htmlacademy.png");
+    background: url("../img/htmlacademy.png")no-repeat center;
 }
 
 .borodinski{
-    background: url("../img/htmlacademy.png");
+    background: url("../img/borodinski.png")no-repeat center;
 }
 
 /*footer*/
