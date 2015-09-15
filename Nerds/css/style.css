@@ -649,6 +649,9 @@ footer {
 .social-btn-fb {
     margin-right: 30px;
 }
+.social-btn-vk{background: #fff url('../img/logo-vk.png') no-repeat center;}
+.social-btn-fb{background: #fff url('../img/logo-fb.png') no-repeat center;}
+.social-btn-inst{background: #fff url('../img/logo-inst.png') no-repeat center;}
 
 .right-column-social {
     float: right;
