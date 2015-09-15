@@ -309,7 +309,7 @@ p {
     vertical-align: middle;
     font-size: 20px;
     line-height: 25px;
-    margin-right: 10px;
+    margin: 10px;
     cursor: pointer;
 }
 
@@ -320,7 +320,7 @@ p {
     vertical-align: middle;
     margin-right: 10px;
     font-size: 30px;
-    color: black;
+    color: #c1c1c1;
 }
 
 .left-column input[type="radio"]:checked + label::before{
@@ -332,7 +332,7 @@ p {
     vertical-align: middle;
     font-size: 20px;
     line-height: 25px;
-    margin-right: 10px;
+    margin: 10px;
     cursor: pointer;
 }
 
@@ -343,6 +343,7 @@ p {
     vertical-align: middle;
     margin-right: 10px;
     font-size: 30px;
+    color: #c1c1c1;
 }
 
 .left-column input[type="checkbox"]:checked + label::before{
@@ -451,9 +452,7 @@ p {
 .btn-more{
     width: 240px;
 }
-btn-filters
-:hover,
-:active
+
 
 
 .btn-sites{
@@ -498,6 +497,20 @@ btn-filters
 }
 .btn-presentation:active{
     background-color: #c09b24;
+    box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
+}
+
+.btn-filters{
+    width: 154px;
+    color: #000;
+    background-color: #f1f1f1;
+    border-radius:3px;
+}
+.btn-filters:hover{
+    background-color: #e5e5e5;
+}
+.btn-filters:active{
+    background-color: #d5d5d5;
     box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 
