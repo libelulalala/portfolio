@@ -155,12 +155,9 @@ body {
 .icon-basket{
     padding-right: 10px;
 }
-.h1 {
-    width: 880px;
-    margin: 0 auto;
-}
 
 .welcome {
+    width: 880px;
     font-size: 40px;
     line-height: 40px;
     color :#000000;
