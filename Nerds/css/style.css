@@ -502,21 +502,40 @@ width: 100%;
     vertical-align: top;
     text-align: center;
     width: 240px;
+    min-height: 270px;
     font-size: 16px;
     line-height: 22px;
     margin-right: 70px;
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 45px;
+    background-color: #f1f1f1;
+}
+
+.catalog-item img{
+    margin-top: 30px;
+}
+
+.catalog-item:hover{
+    background-color: #797979;
 }
 
 .catalog-item:nth-child(2n) {
     margin-right: 0;
 }
+.description{    background-color: #fff;
+    position:absolute;
+    display:none;}
+
 .catalog-item-description{
     padding-right: 25px;
     padding-left: 25px;
 }
+
+
+.catalog-item:hover .description {
+    display:block;
+  }
 
 
 
