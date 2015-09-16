@@ -132,8 +132,7 @@ body {
 }
 
 .main-navigation a,
-.shopping-cart  {
-    display: block;
+.shopping-cart{
     text-decoration: none;
     color: #000000;
 }
