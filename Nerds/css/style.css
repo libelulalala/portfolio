@@ -777,6 +777,7 @@ width: 100%;
 }
 
 .slide-title{
+    margin-bottom: 30px;
     font-size:36px;
     line-height:1;
     font-weight:bold;
