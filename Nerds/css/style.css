@@ -565,8 +565,6 @@ width: 100%;
 
 /*Пагинация */
 .pagination{
-    display:inline-block;
-    text-align: center;
     vertical-align: top;
     text-decoration: none;
     color: #000;
