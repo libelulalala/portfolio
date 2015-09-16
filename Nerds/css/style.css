@@ -104,7 +104,7 @@ body {
     margin-top: 20px;
 }
 
-.main-navigation {
+.main-navigation{
     float: left;
     width: 540px;
     margin-top: 55px;
@@ -354,7 +354,7 @@ p {
 
 .grid-filter label,
 .features-filter label {
-width: 100%;
+    width: 100%;
 }
 
 
@@ -552,7 +552,7 @@ width: 100%;
 
 .catalog-item:hover .description {
     display:block;
-  }
+ }
 
 
 
@@ -1128,6 +1128,7 @@ footer {
     width: 550px;
     margin-right: 20px;
 }
+
 /* Всплывающая форма */
 .popup {
 
@@ -1169,16 +1170,13 @@ footer {
     margin: 0;
     margin-bottom: 10px;
     padding: 10px;
-
     font-size: 12px;
     line-height: 18px;
     color: #000;
     font-weight: 700;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
-
     border:2px solid #d7dcde;
-
 }
 
 .popup input[type="text"]:focus,
@@ -1247,7 +1245,6 @@ footer {
     cursor: pointer;
     background: #fb565a;
     background-image: url("../img/cross.png");
-    background-repeat:no-repeat;
     background-repeat:no-repeat;
     background-position:10px 10px;
     border-radius: 50%;
