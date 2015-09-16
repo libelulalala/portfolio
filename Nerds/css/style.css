@@ -808,7 +808,40 @@ display: block;
     background:#fb565a;
 }
 
-.partners{width: 880px;}
+div.partners{
+    position: relative;
+}
+
+.partners{
+    width: 880px;
+    font-size: 0;
+}
+
+.partners::before{
+    content: "";
+    position: absolute;
+    vertical-align: top;
+    top:10px;
+    left:0;
+    margin-bottom: 40px;
+    display: block;
+    width:880px;
+    height:3px;
+    background:#eeeeee;
+}
+.partners::after{
+    content: "";
+    position: absolute;
+    vertical-align: bottom;
+    bottom: 10px;
+    left:0;
+    display: block;
+    width:880px;
+    height:3px;
+    background:#eeeeee;
+}
+
+
 
 .glukhanko,
 .htmlacademy,
@@ -817,9 +850,11 @@ display: block;
     vertical-align: top;
     text-align: left;
     text-decoration: none;
+    font-size: 14;
     width: 230px;
     padding: 82px 0;
     opacity: 0.2;
+    margin-top: 3px;
 }
 
 .glukhanko:hover,
@@ -853,6 +888,9 @@ footer {
     margin: 0 auto;
 
 }
+.main-footer{margin-top: 75px;}
+
+
 .footer-contacts{
     background: url("../img/map.jpg");
     background-size: cover;}
