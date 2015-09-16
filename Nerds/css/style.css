@@ -750,8 +750,9 @@ width: 100%;
 
 
 .slide-text{
-    width:380px;
+    width:480px;
     padding:30px 0;
+    padding-bottom: 80px;
     color:#283136;
 }
 
@@ -779,17 +780,19 @@ width: 100%;
 .slide:nth-child(1){
     background-image:url("../img/slide-4.png");
     background-repeat:no-repeat;
-    background-position:100% 10px;
+    background-position:100%;
+
 }
 .slide:nth-child(2){
     background-image:url("../img/slide-2.png");
     background-repeat:no-repeat;
-    background-position:100% 10px;
+    background-position:100% 0px;
 }
 .slide:nth-child(3){
     background-image:url("../img/slide-3.png");
     background-repeat:no-repeat;
-    background-position:100% 0;
+    background-position:540px 0;
+
 }
 
 /* Переключение слайдов
@@ -1074,6 +1077,7 @@ footer {
 }
 /* Всплывающая форма */
 .popup {
+    display: none;
     position: absolute;
     top: 0;
     left: 50%;
