@@ -1063,8 +1063,15 @@ footer {
     width: 540px;
     margin-right: 20px;
 }
-
+/* Всплывающая форма */
 .popup {
-    margin: 0 auto;
-    width: 880px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 630px;
+    padding: 50px 80px;
+    background: #fff;
+    margin-top: 276x;
+    margin-left: -440px;
+
 }
