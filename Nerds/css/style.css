@@ -615,16 +615,23 @@ width: 100%;
     width: 154px;
     color: #000;
     background-color: #f1f1f1;
+    outline:none;
+    border:2px solid #f1f1f1;
     border-radius:3px;
     margin-left: 10px;
 }
 
 .btn-filters:hover{
     background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    border-top-color: #e5e5e5;
+
 }
 
 .btn-filters:active{
     background-color: #d5d5d5;
+    border-color: #d5d5d5;
+    border-top-color: #d5d5d5;
     box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 
@@ -1134,6 +1141,39 @@ footer {
 
 .popup textarea{
     width: 459px;
+}
+
+
+.btn-write{
+    outline:none;
+    color: #000;
+    border:2px solid #fb565a;
+    width: 220px;
+    margin-right: 20px;
+}
+.btn-write:hover{
+    background-color: #d6494d;
+    border:2px solid #d6494d;
+}
+.btn-write:active{
+    background-color: #b63538;
+    border:2px solid #b63538;
+}
+
+.btn-cancel{
+    outline:none;
+    color: #000;
+    background-color: #f1f1f1;
+    border:2px solid #f1f1f1;
+    width: 220px;
+}
+.btn-cancel:hover{
+    background-color: #e5e5e5;
+    border:2px solid #e5e5e5;
+}
+.btn-cancel:active{
+    background-color: #d5d5d5;
+    border:2px solid #d5d5d5;
 }
 
 .popup-close {
