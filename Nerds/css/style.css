@@ -575,6 +575,12 @@ width: 100%;
     width: 240px;
 }
 
+.btn-sites,
+.btn-apps,
+.btn-presentation{
+    margin-top: 30px;
+}
+
 .btn-sites{
     background-color: #fb565a;
 }
@@ -832,16 +838,6 @@ width: 100%;
     padding-top: 75px;
     padding-bottom: 57px;
 }
-
-.services-title {
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000;
-    font-weight: 700;
-    font-family: "Roboto", "Arial", sans-serif;
-    text-transform: uppercase;
-}
-
 .services {
     display: inline-block;
     vertical-align: top;
@@ -852,6 +848,18 @@ width: 100%;
     line-height: 22px;
     margin-right: 80px;
 }
+
+.services-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Roboto", "Arial", sans-serif;
+    text-transform: uppercase;
+}
+
 
 .services:last-child {
     margin-right: 0;
