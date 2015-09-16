@@ -841,6 +841,8 @@ width: 100%;
     color: #000;
     font-weight: 400;
     font-family: "Roboto", "Arial", sans-serif;
+    background: url("../img/logo-index.png") no-repeat ;
+    background-position: right top;
 }
 
 .about-left {
@@ -1142,7 +1144,6 @@ footer {
 .popup textarea{
     width: 459px;
 }
-
 
 .btn-write{
     outline:none;
