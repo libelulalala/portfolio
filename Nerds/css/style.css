@@ -193,16 +193,19 @@ p {
 }
 
 /*Каталог */
+
 .left-column {
     float: left;
     width: 240px;
     margin-left: 10px;
     margin-right: 80px;
+    margin-top: 80px;
 }
 
 .filter-title {
     font-size: 18px;
     line-height: 30px;
+    padding-bottom: 20px;
     color :#000000;
     font-weight: 700;
     font-family: "Roboto", "Arial", sans-serif;
@@ -358,6 +361,7 @@ width: 100%;
 .right-column {
     float: right;
     width: 550px;
+    margin-top: 80px;
 }
 
 .sorting {
