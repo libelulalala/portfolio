@@ -456,9 +456,48 @@ width: 100%;
 .catalog-list{
     font-size: 0px;
     text-align: left;
+
+}
+
+   .catalog-item:before {
+       content:" ";
+       position:absolute;
+       top:10px;
+       left:12px;
+       width:10px;
+       height:10px;
+       border-radius:50%;
+       background:#fff;
+   }
+
+.white-dots{
+    content:" ";
+    position:absolute;
+    top:10px;
+    left:12px;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#fff;
+}
+
+.white-dots:nth-child(1){
+    top:10px;
+    left:12px;
+}
+
+.white-dots:nth-child(2){
+    top:10px;
+    left:24px;
+}
+
+.white-dots:nth-child(3){
+    top:10px;
+    left:36px;
 }
 
 .catalog-item {
+    position: relative;
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -478,6 +517,9 @@ width: 100%;
     padding-right: 25px;
     padding-left: 25px;
 }
+
+
+
 /*Кнопки */
 .btn{
     display:inline-block;
