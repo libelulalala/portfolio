@@ -302,7 +302,8 @@ p {
     cursor: pointer;
 }
 
-    .left-column input[type="radio"] + label::before{
+.left-column input[type="radio"] + label::before{
+    width: 25px;
     content: '\25cb';
     font-family: "symbols-nerds";
     display: inline-block;
@@ -313,7 +314,8 @@ p {
 }
 
 .left-column input[type="radio"]:checked + label::before{
- content: '\25cf';
+    width: 25px;
+    content: '\25cf';
 }
 
 .left-column input[type="checkbox"] + label{
@@ -326,6 +328,7 @@ p {
 }
 
 .left-column input[type="checkbox"] + label::before{
+    width: 25px;
     content: '\2610';
     font-family: "symbols-nerds";
     display: inline-block;
@@ -336,6 +339,7 @@ p {
 }
 
 .left-column input[type="checkbox"]:checked + label::before{
+        width: 25px;
     content: '\2611';
 }
 
