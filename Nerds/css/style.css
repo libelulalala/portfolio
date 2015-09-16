@@ -523,15 +523,16 @@ width: 100%;
 .catalog-item:nth-child(2n) {
     margin-right: 0;
 }
-.description{    background-color: #fff;
+.description{
+    background-color: #fff;
     position:absolute;
-    display:none;}
+    display:none;
+}
 
 .catalog-item-description{
     padding-right: 25px;
     padding-left: 25px;
 }
-
 
 .catalog-item:hover .description {
     display:block;
