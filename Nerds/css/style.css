@@ -344,7 +344,7 @@ p {
 
 .grid-filter label,
 .features-filter label {
-display: block;
+width: 100%;
 }
 
 
