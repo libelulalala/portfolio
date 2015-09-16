@@ -351,7 +351,7 @@ width: 100%;
 }
 
 .sorting {
-    
+
     width: 550px;
     margin: 0;
     margin-bottom: 21px;
@@ -619,12 +619,27 @@ width: 100%;
     float: left;
     width: 880px;
     position:relative;
-    width:880px;
-    height:310px;
-    margin:0 auto;
 }
 
-.slides-indicator{
+.slider input[type=radio] {
+    display: none;
+}
+
+.slider-inner{
+	overflow:hidden;
+}
+
+.slides{
+    width: 300%;
+    transition: transform .8s ease;
+}
+
+.slide{
+    float: left;
+    width: 880px;
+}
+
+.slider-controls{
     position:absolute;
     bottom:95px;
     left:50%;
@@ -635,30 +650,34 @@ width: 100%;
     z-index:1000;
 }
 
-.slides-indicator i{
+.slider-controls label {
     display:inline-block;
-    width:4px;
-    height:4px;
+    width:10px;
+    height:10px;
     margin:0 3px;
-    background:white;
-    border:3px solid white;
-    vertical-align:top;
+    background-color: #fff;
+    border:3px solid #fff;
+    vertical-align:bottom;
     border-radius:50%;
     cursor:pointer;
+    transition: background-color .2s;
 }
 
-.slides-indicator .active{
-    background:#c1c1c1;
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"]{
+    background-color:#c1c1c1;
+}
+#btn-1:checked ~ .slider-inner .slides{
+    transform:translate(0);
+}
+#btn-2:checked ~ .slider-inner .slides{
+    transform:translate(-880px);
+}
+#btn-3:checked ~ .slider-inner .slides{
+    transform:translate(-1760px);
 }
 
-.slide{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    overflow:hidden;
-}
 
 .slide-text{
     width:380px;
@@ -702,15 +721,13 @@ width: 100%;
     background-repeat:no-repeat;
     background-position:100% 0;
 }
-.slide{
-    display:none;
-}
 
+/* Переключение слайдов
 .slide:nth-child(1){
     display:block;
 }
 
-/* Переключение слайдов
+
 .slide:nth-child(3){
     display:block;
 }
