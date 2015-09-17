@@ -896,8 +896,10 @@ p {
 }
 .logo-index{
     position: absolute;
-    top: 65px;
-    right: 120px;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    min-height: 130px;
 }
 
 .about-left {
