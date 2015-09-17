@@ -234,21 +234,40 @@
     var popup = document.querySelector(".popup");
     var close = document.querySelector(".btn-popup-close");
 
+    var form = popup.querySelector("form");
+
     var username = popup.querySelector("[name='username']");
     var email = popup.querySelector("[name='email']");
+
+    var storage = localStorage.getItem("username");
+
+
+
 
 
 
     link.addEventListener("click", function(event) {
         event.preventDefault();
         popup.classList.add("popup-show");
-        username.focus();
+        if (storage) {
+          username.value = storage;
+          email.focus();
+        } else {
+          username.focus();
+        }
     });
 
     close.addEventListener("click", function(event) {
         event.preventDefault();
         popup.classList.remove("popup-show");
         popup.classList.remove("popup-error");
+    });
+    form.addEventListener("submit", function(event) {
+        if (!(username.value && email.value)) {
+          event.preventDefault();
+        } else {
+          localStorage.setItem("username", username.value);
+        }
     });
 
     </script>
