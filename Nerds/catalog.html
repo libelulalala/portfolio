@@ -214,12 +214,12 @@
             <button type="button" class="btn-popup-close" title="Закрыть"></button>
             <div class="popup-left">
                 <label>
-                Ваше имя <input type="text" placeholder="представьтесь пожалуйста">
+                Ваше имя <input type="text" name="username"placeholder="представьтесь пожалуйста">
                 </label>
             </div>
             <div class="popup-right">
                 <label>
-                Ваш e-mail <input type="email" placeholder="для отправки ответа">
+                Ваш e-mail <input type="email" name="email" placeholder="для отправки ответа">
                 </label>
             </div>
             <label for="letter-text"> Текст письма:
@@ -234,12 +234,15 @@
     var popup = document.querySelector(".popup");
     var close = document.querySelector(".btn-popup-close");
 
+    var username = popup.querySelector("[name='username']");
+    var email = popup.querySelector("[name='email']");
 
 
 
     link.addEventListener("click", function(event) {
         event.preventDefault();
         popup.classList.add("popup-show");
+        username.focus();
     });
 
     close.addEventListener("click", function(event) {
