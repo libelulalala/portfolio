@@ -242,10 +242,6 @@
     var storage = localStorage.getItem("username");
 
 
-
-
-
-
     link.addEventListener("click", function(event) {
         event.preventDefault();
         popup.classList.add("popup-show");
@@ -268,6 +264,15 @@
         } else {
           localStorage.setItem("username", username.value);
         }
+    });
+
+    window.addEventListener("keydown", function(event) {
+    if (event.keyCode == 27) {
+              if (popup.classList.contains("popup-show")) {
+                popup.classList.remove("popup-show");
+                popup.classList.remove("popup-error");
+              }
+            }
     });
 
     </script>
