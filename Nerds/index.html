@@ -166,12 +166,12 @@
             <button type="button" class="btn-popup-close" title="Закрыть"></button>
             <div class="popup-left">
                 <label>
-                Ваше имя <input type="text" placeholder="представьтесь пожалуйста">
+                Ваше имя <input type="text" name="username"placeholder="представьтесь пожалуйста">
                 </label>
             </div>
             <div class="popup-right">
                 <label>
-                Ваш e-mail <input type="email" placeholder="для отправки ответа">
+                Ваш e-mail <input type="email" name="email" placeholder="для отправки ответа">
                 </label>
             </div>
             <label for="letter-text"> Текст письма:
@@ -210,9 +210,9 @@
         form.addEventListener("submit", function(event) {
             if (!(username.value && email.value)) {
             event.preventDefault();
-            popup.classList.remove("modal-error");
+            popup.classList.remove("popup-error");
             popup.offsetWidth = popup.offsetWidth;
-            popup.classList.add("modal-error");
+            popup.classList.add("popup-error");
 
             } else {
               localStorage.setItem("username", username.value);

@@ -258,9 +258,9 @@
         form.addEventListener("submit", function(event) {
             if (!(username.value && email.value)) {
             event.preventDefault();
-            popup.classList.remove("modal-error");
+            popup.classList.remove("popup-error");
             popup.offsetWidth = popup.offsetWidth;
-            popup.classList.add("modal-error");
+            popup.classList.add("popup-error");
 
             } else {
               localStorage.setItem("username", username.value);
