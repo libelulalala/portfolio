@@ -1050,21 +1050,30 @@ footer {
 
 .footer-contacts{
     background: url("../img/map.jpg");
-    background-size: cover;}
+    background-size: cover;
+    position: relative;
+}
+
+.google-map{
+
+
+}
+
+
 
 .address {
     float: left;
     width: 250px;
+position: absolute;
+top: 88px;
+left: 10px;
+
     background: #fff;
     font-size: 16px;
     line-height: 20px;
     color: #000000;
     font-weight: 400;
     font-family: "Roboto", "Arial", sans-serif;
-
-    margin-top: 88px;
-    margin-bottom: 88px;
-    margin-left: 10px;
     padding: 20px;
 }
 .address-title{
