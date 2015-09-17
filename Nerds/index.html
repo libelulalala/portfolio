@@ -140,7 +140,7 @@
     <footer class="main-footer">
         <div class="container">
             <section class="footer-contacts clearfix">
-                <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=XBuanKHuV1nHTi7bKMF76_6zDdGbFy-n&width=880&height=414"></script>
+                <div id="y-map" style="width:880px;height:414px;"></div>
                 <div class="address">
                     <div class="address-title">NЁRDS DESIGN STUDIO</div>
                     <p>119186, г. Санкт-Петербург, Б. Конюшенная, д. 19/8<p>
@@ -228,6 +228,32 @@
                   }
                 }
         });
+    </script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        var myMap;
+        function init() {
+            myMap = new ymaps.Map('y-map', {
+                center: [59.938554,30.32248],
+                zoom: [15],
+                controls: []
+            }),
+
+            myMap.behaviors.disable('scrollZoom');
+            myMap.controls.add('zoomControl');
+            myPlacemark = new ymaps.Placemark([59.938554,30.32248], {
+                hintContent: 'Большая Конюшенная улица, 19/8, Санкт-Петербург, Россия',
+                balloonContent: ''
+            }, {
+                iconLayout: 'default#image',
+                iconImageHref: 'img/logo-for-map.png',
+                iconImageSize: [235, 190],
+                iconImageOffset: [120, -100]
+            });
+
+            myMap.geoObjects.add(myPlacemark);
+        }
     </script>
   </body>
 </html>
