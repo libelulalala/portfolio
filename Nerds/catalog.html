@@ -230,8 +230,13 @@
         </form>
     </div>
     <script>
+    var link = document.querySelector(".btn-write-us");
+    var popup = document.querySelector(".popup");
 
-
+    link.addEventListener("click", function(event) {
+    event.preventDefault();
+    popup.classList.add("popup-show");
+    });
     </script>
   </body>
 </html>
