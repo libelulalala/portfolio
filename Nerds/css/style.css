@@ -123,14 +123,17 @@ body {
     vertical-align: top;
     text-align: left;
     margin-right: 45px;
-    margin-bottom: 60px;
+    margin-bottom: 52px;
     font-weight: 700;
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     line-height: 10px;
     text-transform: uppercase;
 }
-
+.active-page{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #fb565a;
+}
 .main-navigation a,
 .shopping-cart{
     text-decoration: none;
@@ -880,6 +883,7 @@ p {
 }
 
 .about{
+    position: relative;
     margin-top: 75px;
     margin-bottom: 70px;
     font-size: 16px;
@@ -889,6 +893,11 @@ p {
     font-family: "Roboto", "Arial", sans-serif;
     background: url("../img/logo-index.png") no-repeat ;
     background-position: right top;
+}
+.logo-index{
+    position: absolute;
+    top: 65px;
+    right: 120px;
 }
 
 .about-left {
@@ -923,7 +932,7 @@ p {
     float: right;
     width: 230px;
     margin-right: 10px;
-    margin-top: 160px;
+    margin-top: 141px;
 }
 .about-right ul {
     margin: 0;
