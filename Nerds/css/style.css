@@ -75,7 +75,7 @@
 body {
     font-size: 16px;
     line-height: 16px;
-    color :#283136;
+    color: #283136;
     font-weight: normal;
     font-family: "Roboto", "Arial", sans-serif;
     min-width: 880px;
@@ -87,7 +87,7 @@ body {
 .title-header {
     font-size: 36px;
     line-height: 36px;
-    color :#000000;
+    color: #000000;
     font-weight: normal;
     font-family: "Roboto", "Arial", sans-serif;
 }
@@ -98,8 +98,8 @@ body {
 }
 
 .logo-img{
-    float:left;
-    width:190px;
+    float: left;
+    width: 190px;
     margin-top: 20px;
 }
 
@@ -118,7 +118,7 @@ body {
 
 .main-navigation  li,
 .shopping-cart {
-    display:inline-block;
+    display: inline-block;
     vertical-align: top;
     text-align: left;
     margin-right: 45px;
@@ -169,12 +169,9 @@ body {
     padding-left: 100px;
     padding-top: 35px;
     padding-bottom: 96px;
-
     text-transform: uppercase;
     text-align: center;
     margin: 0 auto;
-
-
 }
 /*содержание страницы*/
 
@@ -182,15 +179,17 @@ body {
     width: 880px;
     margin: 0 auto;
 }
+
 .clearfix:after {
     content: '';
     display: table;
     clear: both;
 }
+
 .title {
     font-size: 36px;
     line-height: 36px;
-    color :#000000;
+    color: #000000;
     font-weight: 700;
     font-family: "Roboto", "Arial", sans-serif;
 }
@@ -213,11 +212,12 @@ p {
     font-size: 18px;
     line-height: 30px;
     padding-bottom: 20px;
-    color :#000000;
+    color: #000000;
     font-weight: 700;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
+
 .grid-filter .filter-title{
     margin-top: 50px;
 }
@@ -372,7 +372,6 @@ p {
 }
 
 .sorting {
-
     width: 550px;
     margin: 0;
     margin-bottom: 21px;
@@ -380,11 +379,11 @@ p {
 }
 
 .sorting-title {
-    float:left;
+    float: left;
     width: 90px;
     font-size: 12px;
     line-height: 18px;
-    color :#000000;
+    color: #000000;
     font-weight: 700;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
@@ -392,7 +391,7 @@ p {
 
 
 .sorting-preference {
-    float:left;
+    float: left;
     width: 410px;
 }
 
@@ -409,7 +408,6 @@ p {
     font-size: 12px;
     line-height: 18px;
     margin-right: 41px;
-
 }
 
 .sorting-preference  a{
@@ -460,6 +458,7 @@ p {
 .icon-up-dir{
     color: #00ca74;
 }
+
 .icon-down-dir{
     color: #c1c1c1;
 }
@@ -477,33 +476,32 @@ p {
 .catalog-list{
     font-size: 0px;
     text-align: left;
-
 }
 
 .white-dots{
     content:" ";
     position:absolute;
-    top:10px;
-    left:12px;
-    width:10px;
-    height:10px;
-    border-radius:50%;
-    background:#fff;
+    top: 10px;
+    left: 12px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
 }
 
 .white-dots:nth-child(1){
-    top:10px;
-    left:13px;
+    top: 10px;
+    left: 13px;
 }
 
 .white-dots:nth-child(2){
-    top:10px;
-    left:30px;
+    top: 10px;
+    left: 30px;
 }
 
 .white-dots:nth-child(3){
-    top:10px;
-    left:48px;
+    top: 10px;
+    left: 48px;
 }
 
 .catalog-item {
@@ -526,7 +524,6 @@ p {
 .catalog-item img{
     margin-top: 30px;
     margin-bottom: 0px;
-
 }
 
 .catalog-item:hover{
@@ -536,15 +533,17 @@ p {
 .catalog-item:nth-child(2n) {
     margin-right: 0;
 }
+
 .description{
     background-color: #fff;
-    position:absolute;
-    display:none;
-    bottom:20px;
-    left:20px;
+    position: absolute;
+    display: none;
+    bottom: 20px;
+    left: 20px;
     padding: 25px;
     width: 200px;
 }
+
 .catalog-item-title{
     font-size: 18px;
     line-height: 24px;
@@ -552,16 +551,15 @@ p {
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
+
 .catalog-item-description{
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 .catalog-item:hover .description {
-    display:block;
+    display: block;
  }
-
-
 
 /*Кнопки */
 .btn{
@@ -569,7 +567,7 @@ p {
     width: 140px;
     padding: 10px 5px;
     background-color: #fb565a;
-    border-radius:3px;
+    border-radius: 3px;
     text-decoration: none;
     color: #fff;
     text-align: center;
@@ -642,7 +640,7 @@ p {
     color: #000;
     background-color: #f1f1f1;
     outline:none;
-    border:2px solid #f1f1f1;
+    border: 2px solid #f1f1f1;
     border-radius:3px;
     margin-left: 10px;
     margin-top: 52px;
@@ -681,7 +679,7 @@ p {
     padding: 8px;
     background: #fff;
     border: 2px solid #f1f1f1;
-    border-radius:3px;
+    border-radius: 3px;
 }
 
 .btn-pagination{
@@ -691,7 +689,7 @@ p {
     width: 38px;
     padding: 10px;
     background-color: #f1f1f1;
-    border-radius:3px;
+    border-radius: 3px;
     text-decoration: none;
     color: #000;
 }
@@ -708,14 +706,12 @@ p {
     width: 140px;
 }
 
-
 /*Главная */
-
 .slider{
     padding: 0px;
     float: left;
     width: 880px;
-    position:relative;
+    position: relative;
 }
 
 .slider input[type=radio] {
@@ -723,7 +719,7 @@ p {
 }
 
 .slider-inner{
-	overflow:hidden;
+	overflow: hidden;
 }
 
 .slides{
@@ -738,89 +734,92 @@ p {
 
 .slider-controls{
     position:absolute;
-    bottom:95px;
-    left:50%;
-    width:200px;
-    height:10px;
-    margin-left:-100px;
-    text-align:center;
-    z-index:1000;
+    bottom: 95px;
+    left: 50%;
+    width: 200px;
+    height: 10px;
+    margin-left: -100px;
+    text-align: center;
+    z-index: 1000;
 }
 
 .slider-controls label {
     display:inline-block;
-    width:10px;
-    height:10px;
-    margin:0 3px;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
     background-color: #fff;
-    border:3px solid #fff;
-    vertical-align:bottom;
-    border-radius:50%;
-    cursor:pointer;
+    border: 3px solid #fff;
+    vertical-align: bottom;
+    border-radius: 50%;
+    cursor: pointer;
     transition: background-color .2s;
 }
 
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
 #btn-2:checked ~ .slider-controls label[for="btn-2"],
 #btn-3:checked ~ .slider-controls label[for="btn-3"]{
-    background-color:#c1c1c1;
-}
-#btn-1:checked ~ .slider-inner .slides{
-    transform:translate(0);
-}
-#btn-2:checked ~ .slider-inner .slides{
-    transform:translate(-880px);
-}
-#btn-3:checked ~ .slider-inner .slides{
-    transform:translate(-1760px);
+    background-color: #c1c1c1;
 }
 
+#btn-1:checked ~ .slider-inner .slides{
+    transform: translate(0);
+}
+
+#btn-2:checked ~ .slider-inner .slides{
+    transform: translate(-880px);
+}
+
+#btn-3:checked ~ .slider-inner .slides{
+    transform: translate(-1760px);
+}
 
 .slide-text{
-    width:480px;
-    padding:30px 0;
+    width: 480px;
+    padding: 30px 0;
     padding-bottom: 80px;
-    color:#283136;
+    color: #283136;
 }
 
 .slide-title{
     margin-bottom: 30px;
-    font-size:36px;
-    line-height:1;
-    font-weight:bold;
-    color:black;
+    font-size: 36px;
+    line-height: 1;
+    font-weight: bold;
+    color: black;
 }
 
 .slide .btn{
-    display:block;
-    width:240px;
-    padding:10px 0;
-    margin-top:25px;
-    font-size:12px;
-    color:white;
-    text-transform:uppercase;
-    text-align:center;
-    text-decoration:none;
-    background:#fb565a;
-    border-radius:3px;
+    display: block;
+    width: 240px;
+    padding: 10px 0;
+    margin-top: 25px;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    background: #fb565a;
+    border-radius: 3px;
 }
 
 .slide:nth-child(1){
-    background-image:url("../img/slide-4.png");
-    background-repeat:no-repeat;
-    background-position:100%;
+    background-image: url("../img/slide-4.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
 
 }
+
 .slide:nth-child(2){
-    background-image:url("../img/slide-2.png");
-    background-repeat:no-repeat;
-    background-position:100% 0px;
+    background-image: url("../img/slide-2.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0px;
 }
-.slide:nth-child(3){
-    background-image:url("../img/slide-3.png");
-    background-repeat:no-repeat;
-    background-position:540px 0;
 
+.slide:nth-child(3){
+    background-image: url("../img/slide-3.png");
+    background-repeat: no-repeat;
+    background-position: 540px 0;
 }
 
 /* Переключение слайдов
@@ -868,7 +867,6 @@ p {
     text-transform: uppercase;
 }
 
-
 .services:last-child {
     margin-right: 0;
 }
@@ -877,13 +875,13 @@ p {
     content: "";
     position: absolute;
     vertical-align: top;
-    bottom:0px;
-    left:0;
+    bottom: 0px;
+    left: 0;
     margin-bottom: 0px;
     display: block;
-    width:880px;
-    height:3px;
-    background:#eeeeee;
+    width: 880px;
+    height: 3px;
+    background: #eeeeee;
 }
 
 .about{
@@ -956,11 +954,11 @@ p {
 .about-right li::before{
     content: "";
     position: absolute;
-    top:10px;
-    left:0;
+    top: 10px;
+    left: 0;
     display: block;
-    width:25px;
-    height:2px;
+    width: 25px;
+    height: 2px;
     background:#fb565a;
 }
 
@@ -977,27 +975,26 @@ div.partners{
     content: "";
     position: absolute;
     vertical-align: top;
-    top:10px;
-    left:0;
+    top: 10px;
+    left: 0;
     margin-bottom: 40px;
     display: block;
-    width:880px;
-    height:3px;
-    background:#eeeeee;
+    width: 880px;
+    height: 3px;
+    background: #eeeeee;
 }
+
 .partners::after{
     content: "";
     position: absolute;
     vertical-align: bottom;
     bottom: 10px;
-    left:0;
+    left: 0;
     display: block;
-    width:880px;
-    height:3px;
-    background:#eeeeee;
+    width: 880px;
+    height: 3px;
+    background: #eeeeee;
 }
-
-
 
 .glukhanko,
 .htmlacademy,
@@ -1044,8 +1041,9 @@ footer {
     margin: 0 auto;
 
 }
-.main-footer{margin-top: 75px;}
-
+.main-footer{
+    margin-top: 75px;
+}
 
 .footer-contacts{
     background: url("../img/map.jpg");
@@ -1053,19 +1051,12 @@ footer {
     position: relative;
 }
 
-.google-map{
-
-
-}
-
-
-
 .address {
     float: left;
     width: 250px;
-position: absolute;
-top: 88px;
-left: 10px;
+    position: absolute;
+    top: 88px;
+    left: 10px;
 
     background: #fff;
     font-size: 16px;
@@ -1122,18 +1113,19 @@ left: 10px;
     vertical-align: middle;
     text-decoration: none;
     font-size: 23px;
-    line-height:60px;
+    line-height: 60px;
     width: 64px;
     height: 64px;
     color: #fff;
     background: #e1e1e1;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
 .icon-vk,
 .icon-facebook {
     margin-right: 30px;
 }
+
 .icon-vk:hover,
 .icon-facebook:hover,
 .icon-instagramm:hover{
@@ -1157,10 +1149,8 @@ left: 10px;
 .popup {
     display: none;
     position: fixed;
-
     top: 50%;
     left: 50%;
-
     font-size: 0px;
     width: 630px;
     padding: 50px 80px;
@@ -1168,14 +1158,11 @@ left: 10px;
     margin-top: -200px;
     margin-left: -315px;
     box-shadow: 0px 0px 30px rgba(0,0,0,.7);
-
-
     font-size: 12px;
     line-height: 18px;
     color: #000;
     font-weight: 700;
     font-family: "Roboto", "Arial", sans-serif;
-
     z-index: 2000;
 }
 
@@ -1192,7 +1179,7 @@ left: 10px;
 }
 
 .popup-left{
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .popup input[type="text"],
@@ -1208,7 +1195,7 @@ left: 10px;
     font-weight: 700;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
-    border:2px solid #d7dcde;
+    border: 2px solid #d7dcde;
 }
 
 .popup input[type="text"]:focus,
@@ -1233,35 +1220,35 @@ left: 10px;
 }
 
 .btn-write{
-    outline:none;
+    outline: none;
     color: #fff;
-    border:2px solid #fb565a;
+    border: 2px solid #fb565a;
     width: 220px;
     margin-right: 20px;
 }
 .btn-write:hover{
     background-color: #d6494d;
-    border:2px solid #d6494d;
+    border: 2px solid #d6494d;
 }
 .btn-write:active{
     background-color: #b63538;
-    border:2px solid #b63538;
+    border: 2px solid #b63538;
 }
 
 .btn-cancel{
-    outline:none;
+    outline: none;
     color: #000;
     background-color: #f1f1f1;
-    border:2px solid #f1f1f1;
+    border: 2px solid #f1f1f1;
     width: 220px;
 }
 .btn-cancel:hover{
     background-color: #e5e5e5;
-    border:2px solid #e5e5e5;
+    border: 2px solid #e5e5e5;
 }
 .btn-cancel:active{
     background-color: #d5d5d5;
-    border:2px solid #d5d5d5;
+    border: 2px solid #d5d5d5;
 }
 
 .btn-popup-close{
@@ -1274,21 +1261,21 @@ left: 10px;
     font-size: 0;
     cursor: pointer;
     background: #fb565a;
-    border:2px solid #fb565a;
+    border: 2px solid #fb565a;
     background-image: url("../img/cross.png");
-    background-repeat:no-repeat;
-    background-position:7px 7px;
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
     outline: none;
 }
 
 .btn-popup-close:hover{
     background-color: #d6494d;
-    border:2px solid #d6494d;
+    border: 2px solid #d6494d;
 }
 
 .btn-popup-close:active{
     background-color: #b63538;
-    border:2px solid #b63538;
+    border: 2px solid #b63538;
 }
 
 .popup label{
