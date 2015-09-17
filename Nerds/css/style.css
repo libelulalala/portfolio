@@ -164,13 +164,18 @@ body {
     font-size: 40px;
     line-height: 40px;
     color :#000000;
-    font-weight: 700;
+    font-weight: 400;
     font-family: "Roboto", "Arial", sans-serif;
-    padding: 0px 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 35px;
+    padding-bottom: 96px;
+
     text-transform: uppercase;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 90px;
+    margin: 0 auto;
+
+
 }
 /*содержание страницы*/
 
