@@ -210,25 +210,23 @@
     </footer>
 
     <div class="popup">
-        <div class="popup-close">
-            <button class="btn-popup-close" title="Закрыть"></button>
-        </div>
         <form action="mailto:admin@nerds.ru" enctype="text/plain">
+            <button type="button" class="btn-popup-close" title="Закрыть"></button>
             <div class="popup-left">
                 <label>
-                <span>Ваше имя </span><input type="text" value="представьтесь пожалуйста">
+                Ваше имя <input type="text" placeholder="представьтесь пожалуйста">
                 </label>
             </div>
             <div class="popup-right">
                 <label>
-                <span>Ваш e-mail </span><input type="email" value="для отправки ответа">
+                Ваш e-mail <input type="email" placeholder="для отправки ответа">
                 </label>
             </div>
-            <label for="letter-text"> <span>Текст письма: </span>
-            <textarea name="text" id="letter-text" rows="4">В свободной форме</textarea>
+            <label for="letter-text"> Текст письма:
+            <textarea name="text" id="letter-text" rows="4" placeholder="В свободной форме"></textarea>
             </label>
             <button type="submit" class="btn btn-write">Отправить</button>
-            <button class="btn btn-cancel" value="cancel">Отмена</button>
+            <button type="reset" class="btn btn-cancel" value="cancel">Отмена</button>
         </form>
     </div>
     <script>

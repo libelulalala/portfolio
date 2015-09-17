@@ -1147,21 +1147,20 @@ footer {
 
 /* Всплывающая форма */
 .popup {
-    display: none;
-    position: absolute;
-    top: 0;
+    position: fixed;
+
+    top: 50%;
     left: 50%;
+
     font-size: 0px;
     width: 630px;
     padding: 50px 80px;
     background: #fff;
-    margin-top: 276px;
+    margin-top: -200px;
     margin-left: -315px;
     box-shadow: 0px 0px 30px rgba(0,0,0,.7);
-}
 
-.popup  span{
-    padding: 0;
+
     font-size: 12px;
     line-height: 18px;
     color: #000;
@@ -1247,29 +1246,34 @@ footer {
     background-color: #d5d5d5;
     border:2px solid #d5d5d5;
 }
-.btn-popup-close{
-    position: relative;
-    display:none;}
 
-.popup-close {
+.btn-popup-close{
+    border-radius: 50%;
     position: absolute;
-    top: 5px;
-    left: 586px;
+    top: 6px;
+    right: 8px;
     width: 40px;
     height: 40px;
     font-size: 0;
     cursor: pointer;
     background: #fb565a;
+    border:2px solid #fb565a;
     background-image: url("../img/cross.png");
     background-repeat:no-repeat;
-    background-position:10px 10px;
-    border-radius: 50%;
+    background-position:7px 7px;
     outline: none;
 }
-.popup-close::after {
 
-
+.btn-popup-close:hover{
+    background-color: #d6494d;
+    border:2px solid #d6494d;
 }
+
+.btn-popup-close:active{
+    background-color: #b63538;
+    border:2px solid #b63538;
+}
+
 .popup label{
     font-size: 16px;
     line-height: 18px;
