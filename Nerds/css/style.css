@@ -1147,6 +1147,7 @@ footer {
 
 /* Всплывающая форма */
 .popup {
+    display: none;
     position: fixed;
 
     top: 50%;
@@ -1166,6 +1167,8 @@ footer {
     color: #000;
     font-weight: 700;
     font-family: "Roboto", "Arial", sans-serif;
+
+    z-index: 2000;
 }
 
 .popup-right,
