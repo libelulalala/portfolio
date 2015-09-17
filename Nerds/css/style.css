@@ -1171,6 +1171,7 @@ footer {
     z-index: 2000;
 }
 
+.popup-show {display: block;}
 .popup-right,
 .popup-left{
     display: inline-block;

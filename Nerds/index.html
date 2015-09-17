@@ -182,6 +182,24 @@
         </form>
     </div>
     <script>
+    var link = document.querySelector(".btn-write-us");
+    var popup = document.querySelector(".popup");
+    var close = document.querySelector(".btn-popup-close");
+
+
+
+
+    link.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.add("popup-show");
+    });
+
+    close.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.remove("popup-show");
+        popup.classList.remove("popup-error");
+    });
+
     </script>
   </body>
 </html>
