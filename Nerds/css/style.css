@@ -899,7 +899,7 @@ p {
     margin-bottom: 70px;
     font-size: 16px;
     line-height: 22px;
-    color: #000;
+    color: #283136;
     font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     background: url("../img/logo-index.png") no-repeat ;
@@ -921,12 +921,14 @@ p {
 }
 
 .about-left .title{
+    color: #000;
     margin-top: 0px;
     margin-bottom: 26px;
 }
 
 .about-title{
     text-transform: uppercase;
+    color: #283136;
     margin-top: 50px;
     margin-bottom: 30px;
     margin-right: 0;
@@ -1089,7 +1091,9 @@ footer {
     margin-bottom: 20px;}
 
 .address p{
-    margin-bottom: 25px;}
+    margin-bottom: 25px;
+    color: #666666
+}
 
 .footer-social{
     float: left;
@@ -1114,7 +1118,7 @@ footer {
 .right-column-social p{
     font-size: 16px;
     line-height: 22px;
-    color: #000000;
+    color: #283136;
     font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     padding-top: 10px;
