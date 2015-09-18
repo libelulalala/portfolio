@@ -48,21 +48,21 @@ ymaps.ready(init);
 var myMap;
 function init() {
     myMap = new ymaps.Map('y-map', {
-        center: [59.938554,30.32248],
-        zoom: [15],
+        center: [59.939157, 30.320857],
+        zoom: [17],
         controls: []
     }),
 
     myMap.behaviors.disable('scrollZoom');
     myMap.controls.add('zoomControl');
-    myPlacemark = new ymaps.Placemark([59.938554,30.32248], {
+    myPlacemark = new ymaps.Placemark([59.939157, 30.320857], {
         hintContent: 'Большая Конюшенная улица, 19/8, Санкт-Петербург, Россия',
         balloonContent: ''
     }, {
         iconLayout: 'default#image',
         iconImageHref: 'img/logo-for-map.png',
-        iconImageSize: [235, 190],
-        iconImageOffset: [120, -100]
+        iconImageSize: [231, 190],
+        iconImageOffset: [160, -100]
     });
 
     myMap.geoObjects.add(myPlacemark);
