@@ -161,7 +161,7 @@ body {
 .welcome {
     width: 880px;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 45px;
     color :#000000;
     font-family: "Roboto", "Arial", sans-serif;
     padding-right: 100px;
@@ -202,7 +202,7 @@ p {
     float: left;
     width: 240px;
     margin-right: 70px;
-    margin-top: 55px;
+    margin-top: 50px;
 }
 
 .filter-title {
@@ -214,14 +214,14 @@ p {
 }
 
 .grid-filter .filter-title{
-    padding-top: 10px;
-    margin-top: 40px;
+    padding-bottom: 5px;
+    margin-top: 48px;
     margin-bottom: 0px;
 }
 
 .features-filter .filter-title{
     margin-top: 35px;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
 .range-controls {
@@ -230,7 +230,7 @@ p {
     padding-top: 39px;
     padding-right: 20px;
     padding-left: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border-radius: 5px;
     background: #f1f1f1;
     overflow:hidden;
@@ -274,12 +274,14 @@ p {
 
 .price-controls label {
     font-size: 16px;
+    text-transform: uppercase;
     display: inline-block;
     width: 50%;
 }
 
 .max-price {
     text-align: right;
+    margin-left: 10px;
 }
 
 .price-controls input {
@@ -335,7 +337,7 @@ p {
     font-family: "symbols-nerds";
     display: inline-block;
     vertical-align: middle;
-    margin-left: 0;
+    margin-right: 10px;
     font-size: 30px;
     color: #c1c1c1;
 }
@@ -388,7 +390,7 @@ p {
 .right-column {
     float: right;
     width: 560px;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .sorting {
@@ -675,8 +677,7 @@ p {
     outline:none;
     border:none;
     border-radius:3px;
-    margin-left: 10px;
-    margin-top: 52px;
+    margin-top: 48px;
 }
 
 .btn-filters:hover{
@@ -699,8 +700,8 @@ p {
     font-size: 12px;
     line-height: 18px;
     text-transform: uppercase;
-    margin-top: 15px;
-    margin-bottom: 7px;
+    margin-top: 17px;
+    margin-bottom: 2px;
 }
 
 .btn-pagination-active{
@@ -1068,7 +1069,6 @@ footer {
 }
 
 .address {
-    float: left;
     width: 250px;
     position: absolute;
     top: -320px;
