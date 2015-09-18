@@ -124,7 +124,7 @@ body {
 }
 .active-page{
     padding-bottom: 5px;
-    border-bottom: 3px solid #fb565a;
+    border-bottom: 2px solid #fb565a;
 }
 .main-navigation a,
 .shopping-cart{
@@ -690,9 +690,8 @@ p {
 .btn-pagination{
     display:inline-block;
     text-align: center;
-    vertical-align: middle;
-    width: 38px;
-    padding: 10px;
+    vertical-align: top;
+    padding: 10px 15px;
     background-color: #f1f1f1;
     border-radius: 3px;
     text-decoration: none;
@@ -1002,19 +1001,16 @@ p {
     vertical-align: top;
     text-align: left;
     opacity: 0.2;
+
 }
 
-.glukhanko:hover,
-.htmlacademy:hover,
-.borodinski:hover,
-.glukhanko:active,
-.htmlacademy:active,
-.borodinski:active{
+.partners a:hover,
+.partners a:active{
     opacity: 1;
 }
 
 .partners a{
-margin-right: 80px;
+    margin-right: 80px;
 }
 
 .partners a:last-child{
