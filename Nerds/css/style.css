@@ -17,6 +17,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
 /*
@@ -76,7 +77,7 @@ body {
     font-size: 16px;
     line-height: 16px;
     color: #283136;
-    font-weight: normal;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     min-width: 880px;
     background-color: #ffffff;
@@ -118,7 +119,6 @@ body {
     text-align: left;
     margin-right: 45px;
     margin-bottom: 52px;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     line-height: 10px;
@@ -163,7 +163,6 @@ body {
     font-size: 40px;
     line-height: 40px;
     color :#000000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     padding-right: 100px;
     padding-left: 100px;
@@ -190,7 +189,6 @@ body {
     font-size: 36px;
     line-height: 36px;
     color: #000000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
 }
 
@@ -211,7 +209,6 @@ p {
     font-size: 18px;
     line-height: 30px;
     color: #000000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
@@ -287,7 +284,6 @@ p {
 
 .price-controls input {
     font-family: "Roboto", "Arial", sans-serif;
-    text-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
     width: 60px;
@@ -327,7 +323,6 @@ p {
     margin: 10px;
     margin-left: 0px;
     font-family: "Roboto", "Arial", sans-serif;
-    text-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #283136;
@@ -356,7 +351,6 @@ p {
     margin: 10px;
     margin-left: 0;
     font-family: "Roboto", "Arial", sans-serif;
-    text-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #283136;
@@ -412,7 +406,6 @@ p {
     font-size: 12px;
     line-height: 18px;
     color: #000000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
@@ -578,7 +571,6 @@ p {
     font-size: 18px;
     line-height: 24px;
     color: #000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
     min-height: 40px;
@@ -588,7 +580,6 @@ p {
     font-size: 14px;
     line-height: 18px;
     color: #283136;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -831,7 +822,6 @@ p {
     margin-bottom: 17px;
     font-size: 36px;
     line-height: 1;
-    font-weight: 500;
     color: black;
 }
 .slide-text p{
@@ -903,7 +893,6 @@ p {
     text-align: left;
     width: 240px;
     font-size: 15px;
-    font-weight: 500;
     line-height: 22px;
     margin-right: 80px;
 }
@@ -914,7 +903,6 @@ p {
     font-size: 18px;
     line-height: 30px;
     color: #000000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
@@ -943,7 +931,6 @@ p {
     font-size: 16px;
     line-height: 22px;
     color: #283136;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
 
 }
@@ -1089,7 +1076,6 @@ footer {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     padding: 20px;
 }
@@ -1097,7 +1083,6 @@ footer {
 .address-title{
     font-size: 16px;
     line-height: 30px;
-    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -1125,7 +1110,6 @@ footer {
     font-size: 36px;
     line-height: 36px;
     color: #000000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
 }
 
@@ -1133,7 +1117,6 @@ footer {
     font-size: 16px;
     line-height: 22px;
     color: #283136;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     padding-top: 10px;
 }
@@ -1194,7 +1177,6 @@ footer {
     font-size: 12px;
     line-height: 18px;
     color: #000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     z-index: 2000;
 }
@@ -1225,10 +1207,11 @@ footer {
     font-size: 12px;
     line-height: 18px;
     color: #000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
     border: 2px solid #d7dcde;
+    border-radius: 3px;
+    outline: none;
 }
 
 .popup input[type="text"]:focus,
@@ -1317,7 +1300,6 @@ border:none;
     font-size: 16px;
     line-height: 18px;
     color: #000;
-    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
 }
 
