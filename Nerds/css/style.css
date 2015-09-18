@@ -978,7 +978,6 @@ p {
     content: "";
     position: absolute;
     vertical-align: top;
-
     margin-bottom: 40px;
     display: block;
     width: 880px;
@@ -990,7 +989,6 @@ p {
     content: "";
     position: absolute;
     vertical-align: bottom;
-
     display: block;
     width: 880px;
     height: 3px;
@@ -1015,12 +1013,12 @@ p {
     opacity: 1;
 }
 
-.glukhanko,
-.htmlacademy{
-    margin-right: 80px;
+.partners a{
+margin-right: 80px;
 }
-.borodinski{
-    margin-right: 10px;
+
+.partners a:last-child{
+    margin-right: 0px;
 }
 
 /*footer*/
