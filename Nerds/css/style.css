@@ -93,17 +93,19 @@ body {
 .logo-img{
     float: left;
     width: 190px;
-    margin-top: 20px;
+    margin-top: 26px;
 }
 
 .main-navigation{
     float: left;
     width: 540px;
-    margin-top: 55px;
+    margin-top: 65px;
 }
 
 .main-navigation ul{
     margin: 0;
+    margin-left: 125px;
+    padding: 0px;
     font-size: 0px;
     text-align: center;
     list-style: none;
@@ -122,6 +124,11 @@ body {
     line-height: 10px;
     text-transform: uppercase;
 }
+
+.main-navigation  li:last-child{
+    margin-right: 0px;
+}
+
 .active-page{
     padding-bottom: 5px;
     border-bottom: 2px solid #fb565a;
@@ -145,7 +152,7 @@ body {
     float: right;
     max-width: 120px;
     margin-right: 0;
-    margin-top: 55px;
+    margin-top: 62px;
 }
 .icon-basket{
     padding-right: 10px;
@@ -160,7 +167,7 @@ body {
     font-family: "Roboto", "Arial", sans-serif;
     padding-right: 100px;
     padding-left: 100px;
-    padding-top: 35px;
+    padding-top: 25px;
     padding-bottom: 96px;
     text-transform: uppercase;
     text-align: center;
@@ -196,15 +203,14 @@ p {
 .left-column {
     float: left;
     width: 240px;
-    margin-left: 10px;
     margin-right: 80px;
-    margin-top: 80px;
+    margin-top: 55px;
 }
 
 .filter-title {
     font-size: 18px;
     line-height: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: #000000;
     font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
@@ -212,7 +218,7 @@ p {
 }
 
 .grid-filter .filter-title{
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .features-filter .filter-title{
@@ -293,6 +299,17 @@ p {
     background: #f1f1f1;
 }
 
+.left-column input[type="radio"] + label:hover,
+.left-column input[type="checkbox"] + label:hover{
+    color: #000;
+}
+
+.left-column input[type="radio"] + label:active,
+.left-column input[type="checkbox"] + label:active{
+    color: #a9adaf;
+}
+
+
 .left-column input[type="text"] {
     width: 80px;
 }
@@ -361,7 +378,7 @@ p {
 .right-column {
     float: right;
     width: 550px;
-    margin-top: 80px;
+    margin-top: 55px;
 }
 
 .sorting {
@@ -790,11 +807,17 @@ p {
 }
 
 .slide-title{
-    margin-bottom: 30px;
+    margin-bottom: 17px;
     font-size: 36px;
     line-height: 1;
     font-weight: 500;
     color: black;
+}
+.slide-text p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #283136;
+    text-align: left;
 }
 
 .slide .btn{
@@ -814,7 +837,7 @@ p {
 .slide:nth-child(1){
     background-image: url("../img/slide-4.png");
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: 100% top;
 
 }
 
@@ -850,8 +873,8 @@ p {
     padding: 0px;
     padding-top: 80px;
     position: relative;
-    padding-top: 75px;
-    padding-bottom: 57px;
+    padding-top: 80px;
+    padding-bottom: 77px;
 }
 .services {
     display: inline-block;
@@ -865,8 +888,8 @@ p {
 }
 
 .services-title {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 18px;
     line-height: 30px;
     color: #000000;
@@ -894,8 +917,8 @@ p {
 
 .about{
     position: relative;
-    margin-top: 75px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 45px;
     font-size: 16px;
     line-height: 22px;
     color: #283136;
@@ -913,15 +936,22 @@ p {
 
 .about-left .title{
     color: #000;
-    margin-top: 0px;
-    margin-bottom: 26px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.about-title{
+.about-left .about-title{
     text-transform: uppercase;
     color: #283136;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+.about-right .about-title{
+    text-transform: uppercase;
+    color: #283136;
+    margin-top: 55px;
+    margin-bottom: 20px;
     margin-right: 0;
 }
 
@@ -939,10 +969,6 @@ p {
     width: 240px;
 }
 
-.logo-index{
-
-}
-
 .about-right ul {
     margin: 0;
     padding: 0;
@@ -952,7 +978,7 @@ p {
 .about-right li{
     position: relative;
     padding-left: 37px;
-    margin-bottom: 35px;
+    margin-bottom: 24px;
 }
 
 .about-left li::before,
@@ -994,23 +1020,16 @@ p {
     background: #eeeeee;
 }
 
-.glukhanko,
-.htmlacademy,
-.borodinski{
+.partners a{
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    opacity: 0.2;
-
+    opacity: 0.2;margin-right: 80px;
 }
 
 .partners a:hover,
 .partners a:active{
     opacity: 1;
-}
-
-.partners a{
-    margin-right: 80px;
 }
 
 .partners a:last-child{
@@ -1043,9 +1062,7 @@ footer {
     float: left;
     width: 250px;
     position: absolute;
-    top: -330px;
-    left: 10px;
-
+    top: -320px;
     background: #fff;
     font-size: 16px;
     line-height: 20px;
@@ -1054,11 +1071,13 @@ footer {
     font-family: "Roboto", "Arial", sans-serif;
     padding: 20px;
 }
+
 .address-title{
     font-size: 16px;
     line-height: 30px;
     font-weight: 500;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+}
 
 .address p{
     margin-bottom: 25px;
@@ -1068,16 +1087,18 @@ footer {
 .footer-social{
     float: left;
     width: 880px;
-    padding: 75px 0px;
+    padding: 0px;
+    padding-top: 82px;
+    padding-bottom: 75px;
 }
 
 .left-column-social{
     font-size: 0;
     float: left;
     width: 252px;
-    margin-left: 10px;
     margin-right: 20px;
 }
+
 .right-column-social .title{
     font-size: 36px;
     line-height: 36px;
@@ -1085,6 +1106,7 @@ footer {
     font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
 }
+
 .right-column-social p{
     font-size: 16px;
     line-height: 22px;
@@ -1131,8 +1153,7 @@ footer {
 
 .right-column-social {
     float: right;
-    width: 550px;
-    margin-right: 20px;
+    width: 560px;
 }
 
 /* Всплывающая форма */
