@@ -799,17 +799,26 @@ p {
 
 #btn-1:checked ~ .slider-inner .slides{
     -webkit-transform: translate(0);
-            transform: translate(0);
+    -moz-transform: translate(0);
+    -o-transform: translate(0);
+    -ms-transform: translate(0);
+        transform: translate(0);
 }
 
 #btn-2:checked ~ .slider-inner .slides{
     -webkit-transform: translate(-880px);
-            transform: translate(-880px);
+    -moz-transform: translate(-880px);
+    -o-transform: translate(-880px);
+    -ms-transform: translate(-880px);
+        transform: translate(-880px);
 }
 
 #btn-3:checked ~ .slider-inner .slides{
     -webkit-transform: translate(-1760px);
-            transform: translate(-1760px);
+    -moz-transform: translate(-1760px);
+    -o-transform: translate(-1760px);
+    -ms-transform: translate(-1760px);
+        transform: translate(-1760px);
 }
 
 .slide-text{
@@ -922,7 +931,7 @@ p {
     display: block;
     width: 880px;
     height: 3px;
-    background: #eeeeee;
+    background: #eee;
 }
 
 .about{
@@ -1016,7 +1025,7 @@ p {
     display: block;
     width: 880px;
     height: 3px;
-    background: #eeeeee;
+    background: #eee;
 }
 
 .partners::after{
@@ -1026,7 +1035,7 @@ p {
     display: block;
     width: 880px;
     height: 3px;
-    background: #eeeeee;
+    background: #eee;
 }
 
 .partners a{
