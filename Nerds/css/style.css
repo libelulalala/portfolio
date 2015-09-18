@@ -1237,6 +1237,7 @@ footer {
 
 .btn-write{
     border:none;
+    outline: none;
     color: #fff;
     width: 220px;
     margin-right: 20px;
@@ -1244,7 +1245,7 @@ footer {
 
 .btn-write:hover{
     background-color: #d6494d;
-border:none;
+    border:none;
 }
 .btn-write:active{
     background-color: #b63538;
@@ -1256,12 +1257,12 @@ border:none;
     border:none;
     color: #000;
     background-color: #f1f1f1;
-    border: 2px solid #f1f1f1;
+    border:none;
     width: 220px;
 }
 .btn-cancel:hover{
     background-color: #e5e5e5;
-border:none;
+    border:none;
 }
 .btn-cancel:active{
     background-color: #d5d5d5;
@@ -1287,12 +1288,12 @@ border:none;
 
 .btn-popup-close:hover{
     background-color: #d6494d;
-    border: 2px solid #d6494d;
+
 }
 
 .btn-popup-close:active{
     background-color: #b63538;
-    border: 2px solid #b63538;
+
     box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 
