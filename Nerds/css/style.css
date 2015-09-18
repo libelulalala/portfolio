@@ -285,7 +285,7 @@ p {
 
 .price-controls input {
     font-family: "Roboto", "Arial", sans-serif;
-    text-weight:500;
+    text-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
     width: 60px;
@@ -294,18 +294,11 @@ p {
     text-align: center;
     color: #283136;
     border: none;
-    border-radius: 5px;
     outline: none;
+    border-radius: 5px;
     background: #f1f1f1;
 }
-.left-column input[type="radio"] + label,
-.left-column input[type="checkbox"] + label{
-    font-family: "Roboto", "Arial", sans-serif;
-    text-weight:500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #283136;
-}
+
 
 .left-column input[type="radio"] + label:hover,
 .left-column input[type="checkbox"] + label:hover{
@@ -330,9 +323,12 @@ p {
 .left-column input[type="radio"] + label{
     display: inline-block;
     vertical-align: middle;
-    font-size: 20px;
-    line-height: 25px;
     margin: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    text-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #283136;
     cursor: pointer;
 }
 
@@ -355,9 +351,12 @@ p {
 .left-column input[type="checkbox"] + label{
     display: inline-block;
     vertical-align: middle;
-    font-size: 20px;
-    line-height: 25px;
     margin: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    text-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #283136;
     cursor: pointer;
 }
 
@@ -566,9 +565,7 @@ p {
     display: none;
     bottom: 20px;
     left: 20px;
-    padding: 25px 20px;
-    padding-top: 30px;
-    max-height: 200px
+    padding: 22px 20px;
     width: 200px;
     vertical-align: top;
 }
@@ -580,6 +577,7 @@ p {
     font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
+    min-height: 40px;
 }
 
 .catalog-item-description{
@@ -680,7 +678,7 @@ p {
     color: #000;
     background-color: #f1f1f1;
     outline:none;
-    border: 2px solid #f1f1f1;
+    border:none;
     border-radius:3px;
     margin-left: 10px;
     margin-top: 52px;
@@ -688,15 +686,13 @@ p {
 
 .btn-filters:hover{
     background-color: #e5e5e5;
-    border-color: #e5e5e5;
-    border-top-color: #e5e5e5;
+    border:none;
 
 }
 
 .btn-filters:active{
     background-color: #d5d5d5;
-    border-color: #d5d5d5;
-    border-top-color: #d5d5d5;
+    border:none;
     box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 
@@ -1230,7 +1226,7 @@ footer {
 .popup input[type="text"]:focus,
 .popup input[type="email"]:focus,
 .popup textarea:focus {
-   border-color: #56bffb;
+   border: 2px solid #56bffb;
 }
 
 .popup input[type="text"]:hover,
@@ -1249,23 +1245,24 @@ footer {
 }
 
 .btn-write{
-    outline: none;
+    border:none;
     color: #fff;
-    border: 2px solid #fb565a;
     width: 220px;
     margin-right: 20px;
 }
+
 .btn-write:hover{
     background-color: #d6494d;
-    border: 2px solid #d6494d;
+border:none;
 }
 .btn-write:active{
     background-color: #b63538;
-    border: 2px solid #b63538;
+    border:none;
 }
 
 .btn-cancel{
     outline: none;
+    border:none;
     color: #000;
     background-color: #f1f1f1;
     border: 2px solid #f1f1f1;
@@ -1273,11 +1270,11 @@ footer {
 }
 .btn-cancel:hover{
     background-color: #e5e5e5;
-    border: 2px solid #e5e5e5;
+border:none;
 }
 .btn-cancel:active{
     background-color: #d5d5d5;
-    border: 2px solid #d5d5d5;
+    border:none;
 }
 
 .btn-popup-close{
@@ -1305,6 +1302,7 @@ footer {
 .btn-popup-close:active{
     background-color: #b63538;
     border: 2px solid #b63538;
+    box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.3);
 }
 
 .popup label{
