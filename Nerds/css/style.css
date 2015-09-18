@@ -1282,7 +1282,7 @@ footer {
     border: 2px solid #fb565a;
     background-image: url("../img/cross.png");
     background-repeat: no-repeat;
-    background-position: 9px 9px;
+    background-position: center;
     outline: none;
 }
 
