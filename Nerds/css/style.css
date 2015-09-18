@@ -8,12 +8,12 @@
 @charset "UTF-8";
 
  @font-face {
-  font-family: 'symbols-nerds';
-  src: url('../font/symbols-nerds.eot?27841936');
-  src: url('../font/symbols-nerds.eot?27841936#iefix') format('embedded-opentype'),
-       url('../font/symbols-nerds.woff?27841936') format('woff'),
-       url('../font/symbols-nerds.ttf?27841936') format('truetype'),
-       url('../font/symbols-nerds.svg?27841936#symbols-nerds') format('svg');
+  font-family: "symbols-nerds";
+  src: url("../font/symbols-nerds.eot?27841936");
+  src: url("../font/symbols-nerds.eot?27841936#iefix") format("embedded-opentype"),
+       url("../font/symbols-nerds.woff?27841936") format("woff"),
+       url("../font/symbols-nerds.ttf?27841936") format("truetype"),
+       url("../font/symbols-nerds.svg?27841936#symbols-nerds") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -22,8 +22,8 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'symbols-nerds';
-    src: url('../font/symbols-nerds.svg?27841936#symbols-nerds') format('svg');
+    font-family: "symbols-nerds";
+    src: url("../font/symbols-nerds.svg?27841936#symbols-nerds") format("svg");
   }
 }
 */
@@ -59,17 +59,17 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-basket:before { content: '\62'; } /* 'b' */
-.icon-facebook:before { content: '\66'; } /* 'f' */
-.icon-twitter:before { content: '\74'; } /* 't' */
-.icon-vk:before { content: '\76'; } /* 'v' */
-.icon-up-dir:before { content: '\25b2'; } /* '▲' */
-.icon-down-dir:before { content: '\25bc'; } /* '▼' */
-.icon-circle:before { content: '\25cb'; } /* '○' */
-.icon-circle-dot:before { content: '\25cf'; } /* '●' */
-.icon-check-off:before { content: '\2610'; } /* '☐' */
-.icon-check-on:before { content: '\2611'; } /* '☑' */
-.icon-instagramm:before { content: '📷'; } /* '\1f4f7' */
+.icon-basket:before { content: "\62"; } /* "b" */
+.icon-facebook:before { content: "\66"; } /* "f" */
+.icon-twitter:before { content: "\74"; } /* "t" */
+.icon-vk:before { content: "\76"; } /* "v" */
+.icon-up-dir:before { content: "\25b2"; } /* "▲" */
+.icon-down-dir:before { content: "\25bc"; } /* "▼" */
+.icon-circle:before { content: "\25cb"; } /* "○" */
+.icon-circle-dot:before { content: "\25cf"; } /* "●" */
+.icon-check-off:before { content: "\2610"; } /* "☐" */
+.icon-check-on:before { content: "\2611"; } /* "☑" */
+.icon-instagramm:before { content: "📷"; } /* "\1f4f7" */
 
 
 body {
@@ -88,7 +88,7 @@ body {
     font-size: 36px;
     line-height: 36px;
     color: #000000;
-    font-weight: normal;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
 }
 
@@ -123,7 +123,7 @@ body {
     text-align: left;
     margin-right: 45px;
     margin-bottom: 52px;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     line-height: 10px;
@@ -163,7 +163,7 @@ body {
     font-size: 40px;
     line-height: 40px;
     color :#000000;
-    font-weight: 400;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     padding-right: 100px;
     padding-left: 100px;
@@ -181,7 +181,7 @@ body {
 }
 
 .clearfix:after {
-    content: '';
+    content: "";
     display: table;
     clear: both;
 }
@@ -190,7 +190,7 @@ body {
     font-size: 36px;
     line-height: 36px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
 }
 
@@ -213,7 +213,7 @@ p {
     line-height: 30px;
     padding-bottom: 20px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
@@ -285,8 +285,8 @@ p {
 }
 
 .price-controls input {
-    font-family: 'Roboto', 'Arial', sans-serif;
-    text-weight:700;
+    font-family: "Roboto", "Arial", sans-serif;
+    text-weight:500;
     font-size: 16px;
     text-transform: uppercase;
     width: 60px;
@@ -320,7 +320,7 @@ p {
 
 .left-column input[type="radio"] + label::before{
     width: 25px;
-    content: '\25cb';
+    content: "\25cb";
     font-family: "symbols-nerds";
     display: inline-block;
     vertical-align: middle;
@@ -331,7 +331,7 @@ p {
 
 .left-column input[type="radio"]:checked + label::before{
     width: 25px;
-    content: '\25cf';
+    content: "\25cf";
 }
 
 .left-column input[type="checkbox"] + label{
@@ -345,7 +345,7 @@ p {
 
 .left-column input[type="checkbox"] + label::before{
     width: 25px;
-    content: '\2610';
+    content: "\2610";
     font-family: "symbols-nerds";
     display: inline-block;
     vertical-align: middle;
@@ -356,7 +356,7 @@ p {
 
 .left-column input[type="checkbox"]:checked + label::before{
     width: 25px;
-    content: '\2611';
+    content: "\2611";
 }
 
 .grid-filter label,
@@ -384,7 +384,7 @@ p {
     font-size: 12px;
     line-height: 18px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
@@ -447,7 +447,7 @@ p {
     vertical-align: middle;
     text-align: right;
     width: 10px;
-    content: '\25bc';
+    content: "\25bc";
     font-family: "symbols-nerds";
     font-size: 23px;
     line-height: 0;
@@ -547,7 +547,7 @@ p {
 .catalog-item-title{
     font-size: 18px;
     line-height: 24px;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
@@ -789,7 +789,7 @@ p {
     margin-bottom: 30px;
     font-size: 36px;
     line-height: 1;
-    font-weight: bold;
+    font-weight: 500;
     color: black;
 }
 
@@ -855,7 +855,7 @@ p {
     text-align: left;
     width: 240px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 22px;
     margin-right: 80px;
 }
@@ -866,7 +866,7 @@ p {
     font-size: 18px;
     line-height: 30px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
 }
@@ -895,7 +895,7 @@ p {
     font-size: 16px;
     line-height: 22px;
     color: #000;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     background: url("../img/logo-index.png") no-repeat ;
     background-position: right top;
@@ -1066,14 +1066,14 @@ footer {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    font-weight: 400;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     padding: 20px;
 }
 .address-title{
     font-size: 16px;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 20px;}
 
 .address p{
@@ -1096,14 +1096,14 @@ footer {
     font-size: 36px;
     line-height: 36px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
 }
 .right-column-social p{
     font-size: 16px;
     line-height: 22px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     padding-top: 10px;
 }
@@ -1165,7 +1165,7 @@ footer {
     font-size: 12px;
     line-height: 18px;
     color: #000;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     z-index: 2000;
 }
@@ -1196,7 +1196,7 @@ footer {
     font-size: 12px;
     line-height: 18px;
     color: #000;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
     border: 2px solid #d7dcde;
@@ -1286,7 +1286,7 @@ footer {
     font-size: 16px;
     line-height: 18px;
     color: #000;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
 }
 
