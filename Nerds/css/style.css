@@ -902,22 +902,14 @@ p {
     color: #283136;
     font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
-    background: url("../img/logo-index.png") no-repeat ;
-    background-position: right top;
-}
-.logo-index{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 240px;
-    min-height: 130px;
+
 }
 
 .about-left {
     float: left;
-    width: 570px;
-    margin-left: 10px;
+    width: 580px;
     margin-right: 20px;
+
 }
 
 .about-left .title{
@@ -945,10 +937,13 @@ p {
 
 .about-right{
     float: right;
-    width: 230px;
-    margin-right: 10px;
-    margin-top: 141px;
+    width: 240px;
 }
+
+.logo-index{
+
+}
+
 .about-right ul {
     margin: 0;
     padding: 0;
@@ -973,11 +968,8 @@ p {
     background:#fb565a;
 }
 
-div.partners{
-    position: relative;
-}
-
 .partners{
+    position: relative;
     width: 880px;
     font-size: 0;
 }
@@ -986,8 +978,7 @@ div.partners{
     content: "";
     position: absolute;
     vertical-align: top;
-    top: 10px;
-    left: 0;
+
     margin-bottom: 40px;
     display: block;
     width: 880px;
@@ -999,8 +990,7 @@ div.partners{
     content: "";
     position: absolute;
     vertical-align: bottom;
-    bottom: 10px;
-    left: 0;
+
     display: block;
     width: 880px;
     height: 3px;
@@ -1013,12 +1003,7 @@ div.partners{
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    text-decoration: none;
-    font-size: 14;
-    width: 230px;
-    padding: 82px 0;
     opacity: 0.2;
-    margin-top: 3px;
 }
 
 .glukhanko:hover,
@@ -1031,19 +1016,11 @@ div.partners{
 }
 
 .glukhanko,
-.htmlacademy{margin-right: 80px;}
-.borodinski{margin-right: 10px;}
-
-.glukhanko{
-    background: url("../img/glukhanko.png") no-repeat center;
-}
-
 .htmlacademy{
-    background: url("../img/htmlacademy.png")no-repeat center;
+    margin-right: 80px;
 }
-
 .borodinski{
-    background: url("../img/borodinski.png")no-repeat center;
+    margin-right: 10px;
 }
 
 /*footer*/
@@ -1055,7 +1032,6 @@ footer {
 .yandex-map{
     width:100%;
     height: 414px;
-
     margin: 0;
 }
 
