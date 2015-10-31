@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Challenge</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <header class="main-header">
@@ -24,9 +26,9 @@
                     </li>
                 </ul>
             </nav>
-            <div class="slide">
-                <div class="slide-text">
-                    <h1 class="header-title">Учеба никогда еще не была такой интересной!</h1>
+            <div class="study clearfix">
+                <div class="study-text">
+                    <h1 class="study-title">Учеба еще никогда не была такой интересной!</h1>
                     <p>Обучаем готовых к трудоустройству<br>
                      специалистов на теоретических<br>
                      и практических курсах.</p>
@@ -35,140 +37,140 @@
             </div>
         </div>
     </header>
-    <div class="container clearfix">
-        <article class="advantages-block container">
+    <article class="advantages-block">
+        <div class="container clearfix">
             <div class="advantages">
-                <img src="img/icon1.png" width="55" height="59">
+                <i class="sprite sprite-icon1"></i>
                 <h2 class="advantages-title">Гибкий график обучения</h2>
                 <p>Современный темп жизни требует гибкого подхода к расписанию.</p>
             </div>
 
             <div class="advantages">
-                <img src="img/icon2.png" width="73" height="67">
+                <i class="sprite sprite-icon2"></i>
                 <h2 class="advantages-title">Практические занятия</h2>
                 <p>На одной теории далеко не уедешь, поэтому мы обучаем на практике.</p>
             </div>
 
             <div class="advantages">
-                <img src="img/icon3.png" width="69" height="63">
+                <i class="sprite sprite-icon3"></i>
                 <h2 class="advantages-title">Не оставим без работы</h2>
                 <p>Хорошие специалисты всегда в цене и Вы станете именно таким.</p>
             </div>
-        </article>
-
-        <article class="education container">
-            <h1 class="education-title">Формы обучения</h1>
-            <a href="#" class="detail">Подробнее о программе</a>
-            <table>
-                <tr>
-                    <th>Название</th>
-                    <th>Длительность</th>
-                    <th>Описание</th>
-                </tr>
-                <tr>
-                    <td>Дневное обучение</td>
-                    <td>4 года</td>
-                    <td>Наиболее интенсивный вариант обучения, для тех, кто не терпит компромиссов ни в чем.</td>
-                </tr>
-                <tr>
-                    <td>Вечернее обучение</td>
-                    <td>5 лет</td>
-                    <td>Вынуждены совмещать учебу с работой? Дадим вам такую возможность, совмещайте на здоровье.</td>
-                </tr>
-            </table>
-        </article>
-        <article class="write-us container">
-        <h1 class="write-us-title">Обратная связь</h1>
-        <div class="write-us-left">
-            <form action="mailto:all@education.ru" enctype="text/plain">
-                <label>
-                ФИО: <input type="text" name="username" placeholder="Представьтесь пожалуйста">
-                </label>
-
-                Пол:
-                <input type="radio" name="sex" id="male">
-                <label for="male">Мужской</label>
-
-                <input type="radio" name="sex" id="female">
-                <label for="female">Женский</label>
-
-                <label for="letter-text"> Текст письма:
-                <textarea name="text" id="letter-text" rows="3" placeholder="Сообщите о себе все, что считаете нужным"></textarea>
-                </label>
-
-                <button type="submit" class="btn btn-write">Отправить</button>
-            </form>
         </div>
-        <div class="write-us-right">
-            <h3>Заинтересовались обучением на нашей кафедре?</h3>
-            <p>Заполните короткую форму обратной
-            связи и отправьте нам.</p>
-            <p>Мы подготовим для вас
-            индивидуальное предложение и
-            выйдем на связь!</p>
-            <p><span class="attention">Внимание!</span> Все поля обязательны для заполнения.</p>
-            </article>
-        </div>
+    </article>
 
-        <footer class="main-footer">
-            <section class="footer-left">
-                <a href="index.html" class="logo-img"><img src="img/logo.png" width="182" height="82" alt="logo"></a>
-                <div class="address">197101, г. Санкт-Петербург, пр. Кронверкский, д. 49</div>
-            </section>
-            <section class="footer-right">
-                <h4>Обучение</h4>
-                <ul>
-                <li>
-                    <a href="#">Расписание</a>
-                </li>
-                <li>
-                    <a href="#">Предметы</a>
-                </li>
-                <li>
-                    <a href="#">Практика</a>
-                </li>
-                </ul>
+    <article class="education container">
+        <h1 class="education-title">Формы обучения</h1>
+        <a href="#" class="detail">Подробнее о программе</a>
+        <table>
+            <tr>
+                <th class="name">Название</th>
+                <th class="period">Длительность</th>
+                <th class="description">Описание</th>
+            </tr>
+            <tr>
+                <td>Дневное обучение</td>
+                <td>4 года</td>
+                <td>Наиболее интенсивный вариант обучения, для тех, кто не терпит компромиссов ни в чем.</td>
+            </tr>
+            <tr>
+                <td>Вечернее обучение</td>
+                <td>5 лет</td>
+                <td>Вынуждены совмещать учебу с работой? Дадим вам такую возможность, совмещайте на здоровье.</td>
+            </tr>
+        </table>
+    </article>
+    <article class="write-us container">
+    <h1 class="write-us-title">Обратная связь</h1>
+    <div class="write-us-left">
+        <form action="mailto:all@education.ru" enctype="text/plain">
+            <label>
+            ФИО: <input type="text" name="username" placeholder="Представьтесь пожалуйста">
+            </label>
 
-                <h4>Выпускники</h4>
-                <ul>
-                <li>
-                    <a href="#">Достижения</a>
-                </li>
-                <li>
-                    <a href="#">Отзывы</a>
-                </li>
-                <li>
-                    <a href="#">Найти</a>
-                </li>
-                </ul>
+            Пол:
+            <input type="radio" name="sex" id="male">
+            <label for="male">Мужской</label>
 
-                <h4>Как поступить</h4>
-                <ul>
-                <li>
-                    <a href="#">На коммерцию</a>
-                </li>
-                <li>
-                    <a href="#">Целевой набор</a>
-                </li>
-                <li>
-                    <a href="#">На бюджет</a>
-                </li>
-                </ul>
+            <input type="radio" name="sex" id="female">
+            <label for="female">Женский</label>
 
-                <h4>Контакты</h4>
-                <ul>
-                <li>
-                    <a href="#">Обратная связь</a>
-                </li>
-                <li>
-                    <a href="#">Схема проезда</a>
-                </li>
-                <li>
-                    <a href="#">Телефон/факс</a>
-                </li>
-                </ul>
-            </section>
-        </footer>
+            <label for="letter-text"> Текст письма:
+            <textarea name="text" id="letter-text" rows="3" placeholder="Сообщите о себе все, что считаете нужным"></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-write">Отправить</button>
+        </form>
     </div>
+    <div class="write-us-right">
+        <h3>Заинтересовались обучением на нашей кафедре?</h3>
+        <p>Заполните короткую форму обратной
+        связи и отправьте нам.</p>
+        <p>Мы подготовим для вас
+        индивидуальное предложение и
+        выйдем на связь!</p>
+        <p><span class="attention">Внимание!</span> Все поля обязательны для заполнения.</p>
+        </article>
+    </div>
+
+    <footer class="main-footer">
+        <section class="footer-left">
+            <a href="index.html" class="logo-img"><img src="img/logo.png" width="182" height="82" alt="logo"></a>
+            <div class="address">197101, г. Санкт-Петербург, пр. Кронверкский, д. 49</div>
+        </section>
+        <section class="footer-right">
+            <h4>Обучение</h4>
+            <ul>
+            <li>
+                <a href="#">Расписание</a>
+            </li>
+            <li>
+                <a href="#">Предметы</a>
+            </li>
+            <li>
+                <a href="#">Практика</a>
+            </li>
+            </ul>
+
+            <h4>Выпускники</h4>
+            <ul>
+            <li>
+                <a href="#">Достижения</a>
+            </li>
+            <li>
+                <a href="#">Отзывы</a>
+            </li>
+            <li>
+                <a href="#">Найти</a>
+            </li>
+            </ul>
+
+            <h4>Как поступить</h4>
+            <ul>
+            <li>
+                <a href="#">На коммерцию</a>
+            </li>
+            <li>
+                <a href="#">Целевой набор</a>
+            </li>
+            <li>
+                <a href="#">На бюджет</a>
+            </li>
+            </ul>
+
+            <h4>Контакты</h4>
+            <ul>
+            <li>
+                <a href="#">Обратная связь</a>
+            </li>
+            <li>
+                <a href="#">Схема проезда</a>
+            </li>
+            <li>
+                <a href="#">Телефон/факс</a>
+            </li>
+            </ul>
+        </section>
+    </footer>
 </body>
 </html>
